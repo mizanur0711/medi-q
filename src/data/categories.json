@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cat-nebulizers",
+    "name": "Nebulizers",
+    "slug": "nebulizers",
+    "description": "Bangladesh's largest nebulizer range — 12 models for home, clinical, and ICU use.",
+    "icon": "wind",
+    "imageUrl": "/images/categories/nebulizers.jpg"
+  },
+  {
+    "id": "cat-surgical-instruments",
+    "name": "Surgical Instruments",
+    "slug": "surgical-instruments",
+    "description": "Premium-grade surgical scissors, forceps, clamps, and retractors from certified manufacturers.",
+    "icon": "scissors",
+    "imageUrl": "/images/categories/surgical-instruments.jpg"
+  },
+  {
+    "id": "cat-diagnostic-devices",
+    "name": "Diagnostic Devices",
+    "slug": "diagnostic-devices",
+    "description": "Accurate diagnostic tools including pulse oximeters, BP monitors, glucometers, and thermometers.",
+    "icon": "activity",
+    "imageUrl": "/images/categories/diagnostic-devices.jpg"
+  },
+  {
+    "id": "cat-ppe",
+    "name": "PPE & Protective Equipment",
+    "slug": "ppe",
+    "description": "Hospital-grade personal protective equipment — gloves, masks, gowns, and face shields.",
+    "icon": "shield",
+    "imageUrl": "/images/categories/ppe.jpg"
+  },
+  {
+    "id": "cat-hospital-furniture",
+    "name": "Hospital Furniture",
+    "slug": "hospital-furniture",
+    "description": "Durable, hygienic hospital furniture including examination beds, IV stands, and overbed tables.",
+    "icon": "bed",
+    "imageUrl": "/images/categories/hospital-furniture.jpg"
+  }
+]

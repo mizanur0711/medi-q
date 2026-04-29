@@ -1,0 +1,382 @@
+[
+  {
+    "id": "NB-001",
+    "name": "MEDI-Q Nebulizer Standard",
+    "slug": "mediq-nebulizer-standard",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "The MEDI-Q Standard Nebulizer delivers reliable aerosol therapy for respiratory conditions including asthma and COPD. Designed for both clinical and home use, it features a high-efficiency nebulization system and quiet motor operation.",
+    "features": [
+      "High-efficiency nebulization rate: 0.3 ml/min",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Compact and lightweight design",
+      "Easy-clean detachable medicine cup"
+    ],
+    "imageUrl": "/images/products/nebulizer-standard.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-002",
+    "name": "MEDI-Q Nebulizer Pro",
+    "slug": "mediq-nebulizer-pro",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "The MEDI-Q Nebulizer Pro is our advanced model featuring a dual-speed nebulization setting and a larger 10 ml medicine cup, suitable for high-volume clinical environments.",
+    "features": [
+      "Dual-speed nebulization control",
+      "Large 10 ml medicine cup",
+      "Nebulization rate: 0.5 ml/min",
+      "Ultra-quiet < 60 dB",
+      "5-year motor warranty",
+      "Includes carrying case"
+    ],
+    "imageUrl": "/images/products/nebulizer-pro.jpg",
+    "specSheetUrl": null,
+    "isNew": true
+  },
+  {
+    "id": "NB-003",
+    "name": "MEDI-Q Nebulizer Compact",
+    "slug": "mediq-nebulizer-compact",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "Portable, travel-friendly nebulizer designed for patients on the go. USB-rechargeable with a built-in battery providing up to 30 minutes of continuous nebulization.",
+    "features": [
+      "USB rechargeable, 1800 mAh battery",
+      "30 min continuous operation",
+      "Ultra-portable: 180g",
+      "Mesh nebulization technology",
+      "Silent operation < 40 dB",
+      "Auto shut-off safety feature"
+    ],
+    "imageUrl": "/images/products/nebulizer-compact.jpg",
+    "specSheetUrl": null,
+    "isNew": true
+  },
+  {
+    "id": "NB-004",
+    "name": "MEDI-Q Nebulizer Pediatric",
+    "slug": "mediq-nebulizer-pediatric",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "Child-friendly nebulizer with fun animal design to ease pediatric therapy anxiety. Effective aerosol delivery with soft, comfortable masks for infants and children.",
+    "features": [
+      "Child-friendly animal design",
+      "Soft pediatric mask (2 sizes)",
+      "Gentle nebulization for sensitive airways",
+      "BPA-free, latex-free components",
+      "Quiet motor < 55 dB",
+      "Easy one-button operation"
+    ],
+    "imageUrl": "/images/products/nebulizer-pediatric.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-005",
+    "name": "MEDI-Q Nebulizer Elite",
+    "slug": "mediq-nebulizer-elite",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "Germany",
+    "description": "The flagship nebulizer in the MEDI-Q range, sourced from a leading German manufacturer. Designed for ICU and critical care settings with precision dosing and continuous-use capability.",
+    "features": [
+      "Precision MMAD < 3.5 μm for deep lung delivery",
+      "Continuous duty cycle — suitable for ICU",
+      "Electronic timer 5/10/15 min",
+      "Anti-bacterial air filter",
+      "CE and ISO 13485 certified",
+      "2-year full warranty"
+    ],
+    "imageUrl": "/images/products/nebulizer-elite.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-006",
+    "name": "MEDI-Q Nebulizer Family",
+    "slug": "mediq-nebulizer-family",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "Designed for multi-user home environments. The Family model includes 4 complete accessory sets, a long 2m tube for flexible positioning, and a durable casing.",
+    "features": [
+      "4 complete mask and mouthpiece sets",
+      "2m flexible tube",
+      "Large 15 ml medicine cup",
+      "Heavy-duty ABS casing",
+      "Overheat protection",
+      "Easy-clean washable filters"
+    ],
+    "imageUrl": "/images/products/nebulizer-family.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-007",
+    "name": "MEDI-Q Nebulizer Ultrasonic",
+    "slug": "mediq-nebulizer-ultrasonic",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "Japan",
+    "description": "High-frequency ultrasonic nebulizer for fast, efficient drug delivery. Silent operation and rapid nebulization rate make it ideal for outpatient clinics.",
+    "features": [
+      "Ultrasonic frequency: 1.7 MHz",
+      "Rapid nebulization: 1.0 ml/min",
+      "Completely silent operation",
+      "Digital LED display",
+      "Built-in water level indicator",
+      "Heats medicine slightly — verify compatibility"
+    ],
+    "imageUrl": "/images/products/nebulizer-ultrasonic.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-008",
+    "name": "MEDI-Q Nebulizer Mesh Pro",
+    "slug": "mediq-nebulizer-mesh-pro",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "Japan",
+    "description": "Vibrating mesh technology for maximum drug efficiency. Minimal medication residual ensures near-complete delivery of every dose.",
+    "features": [
+      "Vibrating mesh technology — 99% medication efficiency",
+      "Works in any orientation (horizontal, vertical)",
+      "3000-micron mesh aperture",
+      "Rechargeable Li-ion battery",
+      "Smartphone app compatible (Bluetooth)",
+      "Residual volume < 0.1 ml"
+    ],
+    "imageUrl": "/images/products/nebulizer-mesh-pro.jpg",
+    "specSheetUrl": null,
+    "isNew": true
+  },
+  {
+    "id": "NB-009",
+    "name": "MEDI-Q Nebulizer Hospital",
+    "slug": "mediq-nebulizer-hospital",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "Germany",
+    "description": "Heavy-duty clinical nebulizer designed for high-throughput hospital settings. Rated for 8 hours of daily use with centralized suction port compatibility.",
+    "features": [
+      "8-hour rated daily use",
+      "Central suction port compatible",
+      "Autoclavable reusable cup",
+      "Integrated HEPA filter",
+      "Alarms: low flow, high pressure",
+      "CE marked, ISO 13485"
+    ],
+    "imageUrl": "/images/products/nebulizer-hospital.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-010",
+    "name": "MEDI-Q Nebulizer Mini",
+    "slug": "mediq-nebulizer-mini",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "The smallest compressor nebulizer in the MEDI-Q range — pocket-sized with AA battery power option for travel and emergencies.",
+    "features": [
+      "Pocket-sized: 130 x 80 x 60 mm",
+      "AA battery / DC adapter dual power",
+      "Self-priming pump, no warm-up",
+      "Drug efficiency > 70%",
+      "Travel pouch included",
+      "FDA registered components"
+    ],
+    "imageUrl": "/images/products/nebulizer-mini.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "NB-011",
+    "name": "MEDI-Q Nebulizer Smart",
+    "slug": "mediq-nebulizer-smart",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "Japan",
+    "description": "IoT-enabled smart nebulizer with usage tracking, dosage reminders, and caregiver reporting via dedicated mobile app. Perfect for chronic disease management programs.",
+    "features": [
+      "Bluetooth 5.0 connectivity",
+      "iOS & Android app support",
+      "Usage history and compliance reports",
+      "Dosage reminders and alerts",
+      "Built-in Wi-Fi for remote monitoring",
+      "Cloud data storage (2-year subscription included)"
+    ],
+    "imageUrl": "/images/products/nebulizer-smart.jpg",
+    "specSheetUrl": null,
+    "isNew": true
+  },
+  {
+    "id": "NB-012",
+    "name": "MEDI-Q Nebulizer Dual Chamber",
+    "slug": "mediq-nebulizer-dual-chamber",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "Germany",
+    "description": "Unique dual-chamber design allows simultaneous nebulization of two different medications for patients requiring combination therapy.",
+    "features": [
+      "Independent dual medicine chambers",
+      "Simultaneous or sequential mode",
+      "Prevents drug cross-contamination",
+      "Dedicated flow paths per chamber",
+      "Large 2 × 8 ml capacity",
+      "Clinical-grade silicone mouthpiece"
+    ],
+    "imageUrl": "/images/products/nebulizer-dual.jpg",
+    "specSheetUrl": null,
+    "isNew": true
+  },
+  {
+    "id": "SI-001",
+    "name": "Surgical Scissors — Mayo Straight",
+    "slug": "surgical-scissors-mayo-straight",
+    "category": "Surgical Instruments",
+    "family": "surgical-instruments",
+    "origin": "Germany",
+    "description": "Premium German stainless steel Mayo surgical scissors for cutting heavy tissues and sutures. Autoclavable and reusable.",
+    "features": [
+      "316L stainless steel",
+      "Straight blade, blunt-blunt tip",
+      "Available: 14 cm, 17 cm, 19 cm",
+      "Autoclavable (134°C)",
+      "Mirror or satin finish",
+      "Lifetime blade warranty"
+    ],
+    "imageUrl": "/images/products/scissors-mayo.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "SI-002",
+    "name": "Surgical Forceps — Tissue",
+    "slug": "surgical-forceps-tissue",
+    "category": "Surgical Instruments",
+    "family": "surgical-instruments",
+    "origin": "Germany",
+    "description": "High-quality tissue forceps designed for delicate tissue handling in general surgery, OB-GYN, and ENT procedures.",
+    "features": [
+      "1×2 teeth for secure tissue grip",
+      "Tungsten carbide tips (gold handle)",
+      "Non-slip serrated body",
+      "Available in 3 lengths",
+      "CE marked",
+      "Autoclavable"
+    ],
+    "imageUrl": "/images/products/forceps-tissue.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "DD-001",
+    "name": "Digital Pulse Oximeter",
+    "slug": "digital-pulse-oximeter",
+    "category": "Diagnostic Devices",
+    "family": "diagnostic-devices",
+    "origin": "China",
+    "description": "Fingertip pulse oximeter for instant SpO2 and pulse rate measurement. Suitable for clinical spot-checks and home monitoring.",
+    "features": [
+      "SpO2 accuracy: ±2%",
+      "Pulse rate: 30–250 bpm",
+      "OLED display, 4 orientations",
+      "Low battery indicator",
+      "2 AAA batteries included",
+      "CE and FDA cleared"
+    ],
+    "imageUrl": "/images/products/pulse-oximeter.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "DD-002",
+    "name": "Digital Blood Pressure Monitor",
+    "slug": "digital-bp-monitor",
+    "category": "Diagnostic Devices",
+    "family": "diagnostic-devices",
+    "origin": "Japan",
+    "description": "Upper arm digital sphygmomanometer with memory storage for 60 readings. Irregular heartbeat detection and hypertension indicator.",
+    "features": [
+      "WHO hypertension colour indicator",
+      "60-reading memory (2 users)",
+      "Irregular heartbeat detection",
+      "Adult cuff 22–42 cm",
+      "Accuracy: ±3 mmHg",
+      "USB and battery powered"
+    ],
+    "imageUrl": "/images/products/bp-monitor.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "PPE-001",
+    "name": "Surgical Gloves — Sterile Latex",
+    "slug": "surgical-gloves-sterile-latex",
+    "category": "PPE & Protective Equipment",
+    "family": "ppe",
+    "origin": "China",
+    "description": "Powder-free sterile latex surgical gloves with micro-textured fingertips for superior grip in sterile environments.",
+    "features": [
+      "Powder-free, pre-sterile",
+      "Micro-textured grip surface",
+      "Sizes 6.0 to 9.0",
+      "AQL 1.5 (surgical grade)",
+      "50 pairs per box",
+      "ISO 10282 certified"
+    ],
+    "imageUrl": "/images/products/surgical-gloves.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "PPE-002",
+    "name": "N95 Respirator Mask",
+    "slug": "n95-respirator-mask",
+    "category": "PPE & Protective Equipment",
+    "family": "ppe",
+    "origin": "USA",
+    "description": "NIOSH-approved N95 filtering facepiece respirator providing ≥95% filtration of airborne particles. Cup-shaped design for all-day comfort.",
+    "features": [
+      "NIOSH N95 approved",
+      "Filters ≥95% airborne particles",
+      "Cup-shaped, adjustable nose clip",
+      "Latex-free",
+      "20 masks per box",
+      "Single use"
+    ],
+    "imageUrl": "/images/products/n95-mask.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "HF-001",
+    "name": "Patient Examination Bed",
+    "slug": "patient-examination-bed",
+    "category": "Hospital Furniture",
+    "family": "hospital-furniture",
+    "origin": "China",
+    "description": "Durable coated steel examination table with adjustable backrest and pull-out footrest. Padded vinyl upholstery for patient comfort.",
+    "features": [
+      "Powder-coated steel frame",
+      "Adjustable backrest 0–85°",
+      "Pull-out footrest",
+      "High-density foam + vinyl cover",
+      "Weight capacity: 200 kg",
+      "Easy-clean surface"
+    ],
+    "imageUrl": "/images/products/exam-bed.jpg",
+    "specSheetUrl": null,
+    "isNew": false
+  }
+]
