@@ -89,7 +89,15 @@ export default function HeroSection() {
             transition={{ delay: 0.5, duration: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Link to="/products" className="btn-primary text-base px-8 py-4">
+            <Link
+              to="/products"
+              className="inline-flex items-center gap-2 text-base px-8 py-4 rounded-full font-bold transition-all duration-300 hover:-translate-y-1"
+              style={{
+                background: 'rgba(255,255,255,0.88)',
+                color: '#14532d',
+                boxShadow: '0 4px 18px rgba(255,255,255,0.12)',
+              }}
+            >
               Browse Products
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -45,8 +45,22 @@ export default function Navbar() {
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isTransparent ? 'bg-transparent py-4' : 'bg-white/95 backdrop-blur-md shadow-md py-2'}`}>
         <div className="container-custom flex items-center justify-between gap-6">
-          <Link to="/" className="flex-shrink-0" onClick={() => setMobileOpen(false)}>
-            <img src={logo} alt="MEDI-Q Logo" className={`transition-all duration-300 ${isTransparent ? 'h-14' : 'h-12'}`} />
+          <Link to="/" className="flex-shrink-0 flex flex-col items-center" onClick={() => setMobileOpen(false)}>
+            <img
+              src={logo}
+              alt="MEDI-Q Logo"
+              className={`transition-all duration-300 ${isTransparent ? 'h-16' : 'h-13'}`}
+            />
+            <span
+              className={`transition-all duration-300 font-semibold tracking-widest uppercase leading-none ${
+                isTransparent
+                  ? 'text-white/80 text-[9px] -mt-1'
+                  : 'text-green-700/70 text-[8px] -mt-1.5'
+              }`}
+              style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '0.18em' }}
+            >
+              Live Life Healthier
+            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

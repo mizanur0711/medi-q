@@ -9,18 +9,10 @@
   },
   {
     "id": "tm-002",
-    "name": "Placeholder Director",
-    "title": "Director of Operations",
-    "bio": "Overseeing day-to-day logistics, supplier relations, and nationwide distribution network. Placeholder bio — please replace with actual team member information.",
+    "name": "Jabed Topu",
+    "title": "Head of Operations",
+    "bio": "Overseeing day-to-day logistics, supplier relations, and nationwide distribution network.",
     "shortBio": "Manages operations and the nationwide distribution network.",
-    "imageUrl": "/images/team/placeholder-director.jpg"
-  },
-  {
-    "id": "tm-003",
-    "name": "Placeholder Manager",
-    "title": "Head of Sales & Marketing",
-    "bio": "Leads the national sales team and develops marketing strategies targeting hospitals, clinics, and medical distributors. Placeholder bio — please replace with actual team member information.",
-    "shortBio": "Leads sales strategy and hospital procurement relationships.",
-    "imageUrl": "/images/team/placeholder-manager.jpg"
+    "imageUrl": "/images/team/jabed-topu.jpg"
   }
 ]
