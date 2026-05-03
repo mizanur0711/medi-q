@@ -49,7 +49,7 @@ export default function Navbar() {
             <img
               src={logo}
               alt="MEDI-Q Logo"
-              className={`transition-all duration-300 ${isTransparent ? 'h-16' : 'h-13'}`}
+              className={`transition-all duration-300 ${isTransparent ? 'h-[77px]' : 'h-[62px]'}`}
             />
             <span
               className={`transition-all duration-300 font-semibold tracking-widest uppercase leading-none ${
@@ -136,7 +136,7 @@ export default function Navbar() {
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               className="fixed right-0 top-0 bottom-0 z-50 w-72 bg-white shadow-2xl lg:hidden flex flex-col">
               <div className="flex items-center justify-between p-5 border-b border-slate-100">
-                <img src={logo} alt="MEDI-Q" className="h-10" />
+                <img src={logo} alt="MEDI-Q" className="h-12" />
                 <button onClick={() => setMobileOpen(false)} className="p-2 rounded-lg hover:bg-slate-100 transition-colors">
                   <svg className="w-5 h-5 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

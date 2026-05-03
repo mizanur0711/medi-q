@@ -144,7 +144,7 @@ export default function DirectorGreeting() {
                   MD Jahedul Alam
                 </p>
                 <p className="text-green-700 text-sm font-semibold mb-1">
-                  Managing Director
+                  CEO
                 </p>
                 <p className="text-slate-400 text-xs mb-4">MEDI-Q · Est. 2012</p>
 
