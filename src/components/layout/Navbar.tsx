@@ -16,6 +16,7 @@ const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'Products', path: '/products', hasDropdown: true },
   { name: 'About', path: '/about' },
+  { name: 'Our Journey', path: '/our-journey' },
   { name: 'Global Presence', path: '/global-presence' },
   { name: 'Gallery', path: '/gallery' },
   { name: 'Contact', path: '/contact' },

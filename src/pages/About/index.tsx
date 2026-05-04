@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import teamData from '../../data/team.json';
 import milestonesData from '../../data/milestones.json';
 import type { TeamMember, Milestone } from '../../types';
@@ -174,21 +175,29 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Sister Concern */}
+        {/* Mother Company */}
         <section className="section-padding bg-white">
           <div className="container-custom text-center">
             <span className="inline-block px-4 py-1.5 rounded-full bg-green-100 text-green-700 text-sm font-semibold mb-4">Our Group</span>
-            <h2 className="section-title mb-4">Sister Concern</h2>
-            <p className="text-slate-500 mb-8 max-w-xl mx-auto">MEDI-Q operates as a sister concern of the following company</p>
-            <div className="inline-block bg-slate-50 border border-slate-200 rounded-2xl px-12 py-8 shadow-card">
-              <div className="w-24 h-24 rounded-2xl bg-slate-200 flex items-center justify-center mx-auto mb-4">
-                <svg className="w-10 h-10 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <h2 className="section-title mb-4">Mother Company</h2>
+            <p className="text-slate-500 mb-8 max-w-2xl mx-auto leading-relaxed">
+              MEDI-Q is backed by Service &amp; Corporation, a well-established name in Bangladesh’s healthcare supply industry since 1969. This strong foundation enables MEDI-Q to maintain high product standards, reliable sourcing, and continuous growth.
+            </p>
+            <Link to="/our-journey" className="inline-block bg-slate-50 border border-slate-200 rounded-3xl px-12 py-8 shadow-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
+              <div className="w-24 h-24 rounded-2xl bg-green-100 flex items-center justify-center mx-auto mb-4 group-hover:bg-green-200 transition-colors">
+                <svg className="w-10 h-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="font-bold text-slate-800 text-xl mb-1">Service &amp; Corporation</h3>
-              <p className="text-slate-500 text-sm">Logo and details coming soon</p>
-            </div>
+              <h3 className="font-bold text-slate-800 text-2xl mb-2 group-hover:text-green-700 transition-colors">Service &amp; Corporation</h3>
+              <p className="text-slate-500 text-sm mb-4">Established in 1969</p>
+              <div className="inline-flex items-center gap-2 text-green-600 font-semibold text-sm">
+                Discover Our Journey
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </div>
+            </Link>
           </div>
         </section>
 
