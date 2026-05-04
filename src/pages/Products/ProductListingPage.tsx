@@ -74,7 +74,7 @@ export default function ProductListingPage() {
       <div className="pt-24 min-h-screen bg-slate-50">
         {/* Header */}
         <div className="bg-brand-gradient text-white py-12">
-          <div className="container-custom">
+          <div className="container-custom relative">
             <div className="flex items-center gap-2 text-green-300 text-sm mb-3">
               <Link to="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
@@ -122,6 +122,22 @@ export default function ProductListingPage() {
 
             {/* Main */}
             <div className="flex-1">
+              {activeCategory && (
+                <div className="mb-6 bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-5 shadow-sm">
+                  <div>
+                    <h2 className="text-lg font-bold text-slate-900 mb-1 flex items-center gap-2">
+                      <svg className="w-5 h-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      Discover the {activeLabel} Family
+                    </h2>
+                    <p className="text-slate-600 text-sm">View detailed specifications, features, and certifications for our complete {activeLabel.toLowerCase()} range.</p>
+                  </div>
+                  <Link to={`/products/family/${activeCategory}`} className="btn-primary whitespace-nowrap text-sm px-6 py-2.5 shadow-sm hover:shadow-md transition-shadow">
+                    Explore Details
+                  </Link>
+                </div>
+              )}
               {filtered.length === 0 ? (
                 <div className="text-center py-20">
                   <p className="text-4xl mb-3">📦</p>

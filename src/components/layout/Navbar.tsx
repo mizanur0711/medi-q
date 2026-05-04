@@ -4,13 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useScrollY } from '../../hooks/useScrollY';
 import logo from '../../assets/Medi_Q_Logo-1-removebg-preview.png';
 
-const productCategories = [
-  { name: 'Nebulizers', slug: 'nebulizers' },
-  { name: 'Surgical Instruments', slug: 'surgical-instruments' },
-  { name: 'Diagnostic Devices', slug: 'diagnostic-devices' },
-  { name: 'PPE & Protective Equipment', slug: 'ppe' },
-  { name: 'Hospital Furniture', slug: 'hospital-furniture' },
-];
+import categoriesData from '../../data/categories.json';
+
+const productCategories = categoriesData;
 
 const navLinks = [
   { name: 'Home', path: '/' },
