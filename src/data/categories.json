@@ -38,5 +38,29 @@
     "description": "Durable, hygienic hospital furniture including examination beds, IV stands, and overbed tables.",
     "icon": "bed",
     "imageUrl": "/images/categories/hospital-furniture.jpg"
+  },
+  {
+    "id": "cat-rehabilitation-mobility",
+    "name": "Rehabilitation & Mobility",
+    "slug": "rehabilitation-mobility",
+    "description": "Supportive equipment including wheelchairs, hand crutches, and orthopedic casts.",
+    "icon": "wheelchair",
+    "imageUrl": "/images/categories/mobility.jpg"
+  },
+  {
+    "id": "cat-home-care",
+    "name": "Home Care",
+    "slug": "home-care",
+    "description": "Essential home care items like air mattresses, hot water bags, and dental care.",
+    "icon": "home",
+    "imageUrl": "/images/categories/home-health.jpg"
+  },
+  {
+    "id": "cat-lab-supplies",
+    "name": "Laboratory Supplies",
+    "slug": "laboratory-supplies",
+    "description": "Clinical lab essentials — blood collection tubes (EDTA), pipette tips, and glass slides[cite: 3].",
+    "icon": "test-tube",
+    "imageUrl": "/images/categories/lab-supplies.jpg"
   }
 ]

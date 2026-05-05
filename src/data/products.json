@@ -1,243 +1,231 @@
 [
   {
     "id": "NB-001",
-    "name": "MEDI-Q Nebulizer Standard",
-    "slug": "mediq-nebulizer-standard",
+    "name": "AERO-Q Compressor Nebulizer",
+    "slug": "aero-q-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
     "origin": "China",
-    "description": "The MEDI-Q Standard Nebulizer delivers reliable aerosol therapy for respiratory conditions including asthma and COPD. Designed for both clinical and home use, it features a high-efficiency nebulization system and quiet motor operation.",
+    "description": "High-performance compressor nebulizer by AERO-Q, engineered for efficient respiratory therapy.",
     "features": [
-      "High-efficiency nebulization rate: 0.3 ml/min",
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
       "Particle size: MMAD < 5 μm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
-      "Compact and lightweight design",
-      "Easy-clean detachable medicine cup"
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-standard.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/aero-q.jpg",
     "isNew": false
   },
   {
     "id": "NB-002",
-    "name": "MEDI-Q Nebulizer Pro",
-    "slug": "mediq-nebulizer-pro",
+    "name": "SAFE CARE Compressor Nebulizer",
+    "slug": "safe-care-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
     "origin": "China",
-    "description": "The MEDI-Q Nebulizer Pro is our advanced model featuring a dual-speed nebulization setting and a larger 10 ml medicine cup, suitable for high-volume clinical environments.",
+    "description": "Reliable SAFE CARE brand compressor nebulizer for consistent medication delivery.",
     "features": [
-      "Dual-speed nebulization control",
-      "Large 10 ml medicine cup",
-      "Nebulization rate: 0.5 ml/min",
-      "Ultra-quiet < 60 dB",
-      "5-year motor warranty",
-      "Includes carrying case"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-pro.jpg",
-    "specSheetUrl": null,
-    "isNew": true
+    "imageUrl": "/images/products/safe-care.jpg",
+    "isNew": false
   },
   {
     "id": "NB-003",
-    "name": "MEDI-Q Nebulizer Compact",
-    "slug": "mediq-nebulizer-compact",
+    "name": "PURE Compressor Nebulizer",
+    "slug": "pure-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
     "origin": "China",
-    "description": "Portable, travel-friendly nebulizer designed for patients on the go. USB-rechargeable with a built-in battery providing up to 30 minutes of continuous nebulization.",
+    "description": "PURE brand compressor nebulizer designed for ease of use and effective aerosol output[cite: 2].",
     "features": [
-      "USB rechargeable, 1800 mAh battery",
-      "30 min continuous operation",
-      "Ultra-portable: 180g",
-      "Mesh nebulization technology",
-      "Silent operation < 40 dB",
-      "Auto shut-off safety feature"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-compact.jpg",
-    "specSheetUrl": null,
-    "isNew": true
+    "imageUrl": "/images/products/pure.jpg",
+    "isNew": false
   },
   {
     "id": "NB-004",
-    "name": "MEDI-Q Nebulizer Pediatric",
-    "slug": "mediq-nebulizer-pediatric",
+    "name": "NEAT Piston Compressor Nebulizer",
+    "slug": "neat-piston-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
     "origin": "China",
-    "description": "Child-friendly nebulizer with fun animal design to ease pediatric therapy anxiety. Effective aerosol delivery with soft, comfortable masks for infants and children.",
+    "description": "NEAT brand featuring piston compressor technology for professional-grade respiratory support[cite: 2].",
     "features": [
-      "Child-friendly animal design",
-      "Soft pediatric mask (2 sizes)",
-      "Gentle nebulization for sensitive airways",
-      "BPA-free, latex-free components",
-      "Quiet motor < 55 dB",
-      "Easy one-button operation"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-pediatric.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/neat.jpg",
     "isNew": false
   },
   {
     "id": "NB-005",
-    "name": "MEDI-Q Nebulizer Elite",
-    "slug": "mediq-nebulizer-elite",
+    "name": "LIDER Compressor Nebulizer",
+    "slug": "lider-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
-    "origin": "Germany",
-    "description": "The flagship nebulizer in the MEDI-Q range, sourced from a leading German manufacturer. Designed for ICU and critical care settings with precision dosing and continuous-use capability.",
+    "origin": "China",
+    "description": "LIDER brand compressor nebulizer, a staple for home and clinic aerosol therapy[cite: 2].",
     "features": [
-      "Precision MMAD < 3.5 μm for deep lung delivery",
-      "Continuous duty cycle — suitable for ICU",
-      "Electronic timer 5/10/15 min",
-      "Anti-bacterial air filter",
-      "CE and ISO 13485 certified",
-      "2-year full warranty"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-elite.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/lider.jpg",
     "isNew": false
   },
   {
     "id": "NB-006",
-    "name": "MEDI-Q Nebulizer Family",
-    "slug": "mediq-nebulizer-family",
+    "name": "SECURE Compressor Nebulizer",
+    "slug": "secure-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
     "origin": "China",
-    "description": "Designed for multi-user home environments. The Family model includes 4 complete accessory sets, a long 2m tube for flexible positioning, and a durable casing.",
+    "description": "Secure brand nebulizer providing consistent and comfortable medication delivery[cite: 2].",
     "features": [
-      "4 complete mask and mouthpiece sets",
-      "2m flexible tube",
-      "Large 15 ml medicine cup",
-      "Heavy-duty ABS casing",
-      "Overheat protection",
-      "Easy-clean washable filters"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-family.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/secure.jpg",
     "isNew": false
   },
   {
     "id": "NB-007",
-    "name": "MEDI-Q Nebulizer Ultrasonic",
-    "slug": "mediq-nebulizer-ultrasonic",
+    "name": "MY CHECK Compressor Nebulizer",
+    "slug": "my-check-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
-    "origin": "Japan",
-    "description": "High-frequency ultrasonic nebulizer for fast, efficient drug delivery. Silent operation and rapid nebulization rate make it ideal for outpatient clinics.",
+    "origin": "China",
+    "description": "MY CHECK brand compressor nebulizer, part of the comprehensive Medi Q product line[cite: 1, 2].",
     "features": [
-      "Ultrasonic frequency: 1.7 MHz",
-      "Rapid nebulization: 1.0 ml/min",
-      "Completely silent operation",
-      "Digital LED display",
-      "Built-in water level indicator",
-      "Heats medicine slightly — verify compatibility"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-ultrasonic.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/my-check.jpg",
     "isNew": false
   },
   {
     "id": "NB-008",
-    "name": "MEDI-Q Nebulizer Mesh Pro",
-    "slug": "mediq-nebulizer-mesh-pro",
+    "name": "LIVELY Compressor Nebulizer",
+    "slug": "lively-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
-    "origin": "Japan",
-    "description": "Vibrating mesh technology for maximum drug efficiency. Minimal medication residual ensures near-complete delivery of every dose.",
+    "origin": "China",
+    "description": "LIVELY brand featuring a compact design suitable for home and clinic environments[cite: 1, 2].",
     "features": [
-      "Vibrating mesh technology — 99% medication efficiency",
-      "Works in any orientation (horizontal, vertical)",
-      "3000-micron mesh aperture",
-      "Rechargeable Li-ion battery",
-      "Smartphone app compatible (Bluetooth)",
-      "Residual volume < 0.1 ml"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-mesh-pro.jpg",
-    "specSheetUrl": null,
-    "isNew": true
+    "imageUrl": "/images/products/lively.jpg",
+    "isNew": false
   },
   {
     "id": "NB-009",
-    "name": "MEDI-Q Nebulizer Hospital",
-    "slug": "mediq-nebulizer-hospital",
+    "name": "GRANZIA Piston Compressor Nebulizer",
+    "slug": "granzia-piston-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
-    "origin": "Germany",
-    "description": "Heavy-duty clinical nebulizer designed for high-throughput hospital settings. Rated for 8 hours of daily use with centralized suction port compatibility.",
+    "origin": "China",
+    "description": "GRANZIA brand specialized in aerosol therapy using piston compressor technology[cite: 2].",
     "features": [
-      "8-hour rated daily use",
-      "Central suction port compatible",
-      "Autoclavable reusable cup",
-      "Integrated HEPA filter",
-      "Alarms: low flow, high pressure",
-      "CE marked, ISO 13485"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-hospital.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/granzia.jpg",
     "isNew": false
   },
   {
     "id": "NB-010",
-    "name": "MEDI-Q Nebulizer Mini",
-    "slug": "mediq-nebulizer-mini",
+    "name": "MEDI-Q Compressor Nebulizer",
+    "slug": "medi-q-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
     "origin": "China",
-    "description": "The smallest compressor nebulizer in the MEDI-Q range — pocket-sized with AA battery power option for travel and emergencies.",
+    "description": "Premium MEDI-Q brand compressor nebulizer, reliable choice for home and clinic aerosol therapy.",
     "features": [
-      "Pocket-sized: 130 x 80 x 60 mm",
-      "AA battery / DC adapter dual power",
-      "Self-priming pump, no warm-up",
-      "Drug efficiency > 70%",
-      "Travel pouch included",
-      "FDA registered components"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-mini.jpg",
-    "specSheetUrl": null,
+    "imageUrl": "/images/products/medi-q-youth.jpg",
     "isNew": false
   },
   {
     "id": "NB-011",
-    "name": "MEDI-Q Nebulizer Smart",
-    "slug": "mediq-nebulizer-smart",
+    "name": "ALO Compressor Nebulizer",
+    "slug": "alo-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
-    "origin": "Japan",
-    "description": "IoT-enabled smart nebulizer with usage tracking, dosage reminders, and caregiver reporting via dedicated mobile app. Perfect for chronic disease management programs.",
+    "origin": "China",
+    "description": "A robust ALO brand compressor nebulizer offering reliable respiratory support[cite: 2].",
     "features": [
-      "Bluetooth 5.0 connectivity",
-      "iOS & Android app support",
-      "Usage history and compliance reports",
-      "Dosage reminders and alerts",
-      "Built-in Wi-Fi for remote monitoring",
-      "Cloud data storage (2-year subscription included)"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-smart.jpg",
-    "specSheetUrl": null,
-    "isNew": true
+    "imageUrl": "/images/products/alo.jpg",
+    "isNew": false
   },
   {
     "id": "NB-012",
-    "name": "MEDI-Q Nebulizer Dual Chamber",
-    "slug": "mediq-nebulizer-dual-chamber",
+    "name": "EASY Compressor Nebulizer",
+    "slug": "easy-compressor-nebulizer",
     "category": "Nebulizers",
     "family": "nebulizers",
-    "origin": "Germany",
-    "description": "Unique dual-chamber design allows simultaneous nebulization of two different medications for patients requiring combination therapy.",
+    "origin": "China",
+    "description": "EASY brand compressor nebulizer featuring simple, user-friendly controls[cite: 2].",
     "features": [
-      "Independent dual medicine chambers",
-      "Simultaneous or sequential mode",
-      "Prevents drug cross-contamination",
-      "Dedicated flow paths per chamber",
-      "Large 2 × 8 ml capacity",
-      "Clinical-grade silicone mouthpiece"
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/nebulizer-dual.jpg",
-    "specSheetUrl": null,
-    "isNew": true
+    "imageUrl": "/images/products/easy.jpg",
+    "isNew": false
   },
   {
     "id": "SI-001",
@@ -377,6 +365,134 @@
     ],
     "imageUrl": "/images/products/exam-bed.jpg",
     "specSheetUrl": null,
+    "isNew": false
+  },
+  {
+    "id": "HC-001",
+    "name": "MEDI-Q Air Mattress",
+    "slug": "medi-q-air-mattress",
+    "category": "Home Care",
+    "family": "home-care",
+    "origin": "China",
+    "description": "Medical-grade air mattress designed for pressure sore prevention and comfort.",
+    "features": [
+      "1-year warranty included",
+      "Single bed size",
+      "Durable medical-grade PVC"
+    ],
+    "imageUrl": "/images/products/air-mattress.jpg",
+    "isNew": false
+  },
+  {
+    "id": "HC-002",
+    "name": "MEDI-PRO Hot Water Bag",
+    "slug": "medi-pro-hot-water-bag",
+    "category": "Home Care",
+    "family": "home-care",
+    "origin": "China",
+    "description": "High-quality rubber hot water bag for heat therapy and pain relief.",
+    "features": [
+      "1-year warranty",
+      "Reliable leak-proof design",
+      "Standard single size"
+    ],
+    "imageUrl": "/images/products/hot-water-bag.jpg",
+    "isNew": false
+  },
+  {
+    "id": "DD-003",
+    "name": "ALPK2 Aneroid BP Machine",
+    "slug": "alpk2-bp-machine-japan",
+    "category": "Diagnostic Devices",
+    "family": "diagnostic-devices",
+    "origin": "Japan",
+    "description": "Professional manual sphygmomanometer from the renowned Japanese brand ALPK2[cite: 3].",
+    "features": [
+      "Precision Japanese engineering",
+      "Includes cuff and gauge set",
+      "Clinical-grade accuracy"
+    ],
+    "imageUrl": "/images/products/alpk2-manual.jpg",
+    "isNew": false
+  },
+  {
+    "id": "DD-004",
+    "name": "FIT Digital Thermometer",
+    "slug": "fit-digital-thermometer",
+    "category": "Diagnostic Devices",
+    "family": "diagnostic-devices",
+    "origin": "China",
+    "description": "Fast and accurate digital thermometer for oral, axillary, or rectal use[cite: 3].",
+    "features": [
+      "1-year warranty",
+      "Digital LCD display",
+      "Single-pack clinical grade"
+    ],
+    "imageUrl": "/images/products/fit-thermometer.jpg",
+    "isNew": false
+  },
+  {
+    "id": "RM-001",
+    "name": "Manual Wheelchair 809",
+    "slug": "manual-wheelchair-809",
+    "category": "Rehabilitation & Mobility",
+    "family": "rehabilitation-mobility",
+    "origin": "China",
+    "description": "Standard folding wheelchair with durable steel frame and comfortable seating[cite: 3].",
+    "features": [
+      "Chromed steel frame",
+      "Fixed armrest and footrest",
+      "Standard 1pc/CTN packaging"
+    ],
+    "imageUrl": "/images/products/wheelchair-809.jpg",
+    "isNew": false
+  },
+  {
+    "id": "RM-002",
+    "name": "Aluminum Hand Crutch",
+    "slug": "aluminum-hand-crutch",
+    "category": "Rehabilitation & Mobility",
+    "family": "rehabilitation-mobility",
+    "origin": "China",
+    "description": "Lightweight aluminum crutches with adjustable height for mobility support[cite: 3].",
+    "features": [
+      "High-quality aluminum construction",
+      "Adjustable height settings",
+      "Sold as a pair"
+    ],
+    "imageUrl": "/images/products/hand-crutch.jpg",
+    "isNew": false
+  },
+  {
+    "id": "LS-001",
+    "name": "ASSURE EDTA K2 Vacuum Tube",
+    "slug": "assure-edta-k2-tube",
+    "category": "Laboratory Supplies",
+    "family": "laboratory-supplies",
+    "origin": "China",
+    "description": "Sterile vacuum blood collection tube with EDTA K2 additive for hematology tests[cite: 3].",
+    "features": [
+      "2ml/3ml volume options",
+      "Lavender top for easy identification",
+      "Vacuum sealed for accuracy"
+    ],
+    "imageUrl": "/images/products/edta-tube.jpg",
+    "isNew": false
+  },
+  {
+    "id": "PPE-003",
+    "name": "MEDI-Q Face Mask (HQ)",
+    "slug": "medi-q-face-mask-hq",
+    "category": "PPE & Protective Equipment",
+    "family": "ppe",
+    "origin": "China",
+    "description": "High-quality 3-ply surgical face masks for personal and clinical protection[cite: 3].",
+    "features": [
+      "50 pieces per box",
+      "High-quality (HQ) material",
+      "Comfortable earloop design"
+    ],
+    "imageUrl": "/images/products/face-mask-hq.jpg",
     "isNew": false
   }
 ]
