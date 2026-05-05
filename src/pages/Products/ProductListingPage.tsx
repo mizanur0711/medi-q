@@ -19,11 +19,15 @@ function ProductCard({ product }: { product: Product }) {
     >
       <Link to={`/products/${product.slug}`} className="product-card flex flex-col group block h-full">
         <div className="aspect-square bg-gradient-to-br from-green-50 to-emerald-100 relative overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <svg className="w-20 h-20 text-green-200" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14v-4H7l5-8v4h4l-5 8z" />
-            </svg>
-          </div>
+          {product.imageUrl ? (
+            <img src={product.imageUrl} alt={product.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <svg className="w-20 h-20 text-green-200" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14v-4H7l5-8v4h4l-5 8z" />
+              </svg>
+            </div>
+          )}
           {product.isNew && (
             <span className="absolute top-3 left-3 px-2 py-0.5 bg-green-600 text-white text-xs font-bold rounded-full">NEW</span>
           )}

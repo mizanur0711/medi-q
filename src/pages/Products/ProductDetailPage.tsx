@@ -53,12 +53,16 @@ export default function ProductDetailPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Image */}
             <div className="bg-white rounded-3xl shadow-card overflow-hidden aspect-square flex items-center justify-center">
-              <div className="flex flex-col items-center gap-4 text-slate-300">
-                <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14v-4H7l5-8v4h4l-5 8z" />
-                </svg>
-                <p className="text-sm text-slate-400">Product image coming soon</p>
-              </div>
+              {product.imageUrl ? (
+                <img src={product.imageUrl} alt={product.name} className="w-full h-full object-cover" />
+              ) : (
+                <div className="flex flex-col items-center gap-4 text-slate-300">
+                  <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14v-4H7l5-8v4h4l-5 8z" />
+                  </svg>
+                  <p className="text-sm text-slate-400">Product image coming soon</p>
+                </div>
+              )}
             </div>
 
             {/* Details */}
@@ -127,10 +131,14 @@ export default function ProductDetailPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {allProducts.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4).map((p) => (
                 <Link key={p.id} to={`/products/${p.slug}`} className="product-card p-4 group">
-                  <div className="aspect-square bg-green-50 rounded-xl flex items-center justify-center mb-3">
-                    <svg className="w-10 h-10 text-green-200" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14v-4H7l5-8v4h4l-5 8z" />
-                    </svg>
+                  <div className="aspect-square bg-green-50 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+                    {p.imageUrl ? (
+                      <img src={p.imageUrl} alt={p.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                    ) : (
+                      <svg className="w-10 h-10 text-green-200" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14v-4H7l5-8v4h4l-5 8z" />
+                      </svg>
+                    )}
                   </div>
                   <p className="text-xs font-bold text-slate-800 group-hover:text-green-700 transition-colors line-clamp-2">{p.name}</p>
                 </Link>
