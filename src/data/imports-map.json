@@ -6,7 +6,30 @@
     "alpha2": "CN",
     "label": "China",
     "description": "Primary sourcing hub for nebulizers, PPE, hospital furniture, and diagnostic devices. Partnerships with ISO 13485-certified factories.",
-    "products": ["Nebulizers", "PPE", "Hospital Furniture", "Diagnostic Devices"]
+    "products": [
+      "Nebulizers",
+      "PPE",
+      "Hospital Furniture",
+      "Diagnostic Devices",
+      "Face Masks",
+      "Vinyl Gloves",
+      "Alcohol Wipes",
+      "Air Mattress Tube",
+      "Interdental Brush",
+      "Bulb & Bladder",
+      "Clip Cap",
+      "Operation Gown",
+      "Hearing Aid",
+      "Nasal Aspirator",
+      "EDTA Tubes",
+      "Glucose Tube",
+      "Clot Activator",
+      "ESR Glass",
+      "Pipette Tips",
+      "Glass Slides",
+      "Underpads",
+      "Wheelchairs"
+    ]
   },
   {
     "id": "imp-de",
@@ -15,7 +38,10 @@
     "alpha2": "DE",
     "label": "Germany",
     "description": "Source of premium surgical instruments and clinical-grade nebulizers from CE-marked European manufacturers.",
-    "products": ["Surgical Instruments", "Clinical Nebulizers"]
+    "products": [
+      "Surgical Instruments",
+      "Clinical Nebulizers"
+    ]
   },
   {
     "id": "imp-jp",
@@ -24,7 +50,14 @@
     "alpha2": "JP",
     "label": "Japan",
     "description": "Advanced mesh and smart nebulizer technology, as well as precision diagnostic equipment from Japanese medical device manufacturers.",
-    "products": ["Smart Nebulizers", "Diagnostic Devices"]
+    "products": [
+      "Smart Nebulizers",
+      "Diagnostic Devices",
+      "BP Machine",
+      "Digital BP",
+      "Bulb & Bladder",
+      "Stethoscope"
+    ]
   },
   {
     "id": "imp-us",
@@ -33,6 +66,20 @@
     "alpha2": "US",
     "label": "USA",
     "description": "NIOSH-approved respiratory protective equipment and select FDA-registered disposable medical supplies.",
-    "products": ["N95 Respirators", "Disposable Supplies"]
+    "products": [
+      "N95 Respirators",
+      "Disposable Supplies"
+    ]
+  },
+  {
+    "id": "imp-kr",
+    "country": "South Korea",
+    "isoCode": "KOR",
+    "alpha2": "KR",
+    "label": "South Korea",
+    "description": "Source of specialized orthopedic supplies and medical casting materials.",
+    "products": [
+      "Orthopedic Cast"
+    ]
   }
 ]

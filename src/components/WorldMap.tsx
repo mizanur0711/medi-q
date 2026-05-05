@@ -2,37 +2,36 @@ import { useEffect, useState, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { geoNaturalEarth1, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
+import importsMapData from '../data/imports-map.json';
 
 const BANGLADESH = { lat: 23.7, lon: 90.4 };
 const W = 960;
 const H = 480;
 
-export const IMPORT_COUNTRIES = [
-  {
-    id: 'cn', name: 'China', numericId: 156, lat: 35, lon: 105,
-    color: '#0891b2', flag: '🇨🇳',
-    products: ['Nebulizers', 'PPE', 'Hospital Furniture', 'Diagnostic Devices'],
-    description: 'Primary sourcing hub for medical devices and equipment',
-  },
-  {
-    id: 'de', name: 'Germany', numericId: 276, lat: 51, lon: 10,
-    color: '#7c3aed', flag: '🇩🇪',
-    products: ['Surgical Instruments', 'Precision Equipment'],
-    description: 'European partner for high-precision surgical instruments',
-  },
-  {
-    id: 'jp', name: 'Japan', numericId: 392, lat: 36, lon: 138,
-    color: '#c2410c', flag: '🇯🇵',
-    products: ['Diagnostic Equipment', 'Advanced Instruments'],
-    description: 'Source of cutting-edge diagnostic technology',
-  },
-  {
-    id: 'us', name: 'United States', numericId: 840, lat: 38, lon: -97,
-    color: '#166534', flag: '🇺🇸',
-    products: ['Medical Technology', 'Healthcare Devices'],
-    description: 'Partner for innovative healthcare solutions',
-  },
-];
+const COUNTRY_META: Record<string, { numericId: number; lat: number; lon: number; color: string; flag: string }> = {
+  'CN': { numericId: 156, lat: 35, lon: 105, color: '#0891b2', flag: '🇨🇳' },
+  'DE': { numericId: 276, lat: 51, lon: 10, color: '#7c3aed', flag: '🇩🇪' },
+  'JP': { numericId: 392, lat: 36, lon: 138, color: '#c2410c', flag: '🇯🇵' },
+  'US': { numericId: 840, lat: 38, lon: -97, color: '#166534', flag: '🇺🇸' },
+  'KR': { numericId: 410, lat: 36, lon: 128, color: '#ea580c', flag: '🇰🇷' },
+};
+
+export const IMPORT_COUNTRIES = importsMapData.map(item => {
+  const meta = COUNTRY_META[item.alpha2] || {
+    numericId: 0, lat: 0, lon: 0, color: '#64748b', flag: '🏳️'
+  };
+  return {
+    id: item.alpha2.toLowerCase(),
+    name: item.country,
+    numericId: meta.numericId,
+    lat: meta.lat,
+    lon: meta.lon,
+    color: meta.color,
+    flag: meta.flag,
+    products: item.products,
+    description: item.description,
+  };
+});
 
 type Country = typeof IMPORT_COUNTRIES[0];
 type Tooltip = { country: Country; x: number; y: number } | null;

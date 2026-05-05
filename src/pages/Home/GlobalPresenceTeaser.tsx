@@ -42,7 +42,7 @@ export default function GlobalPresenceTeaser() {
             Sourcing from the World's Best
           </h2>
           <p className="text-slate-500 max-w-xl mx-auto">
-            MEDI-Q partners with ISO-certified manufacturers across 4 countries to bring
+            MEDI-Q partners with ISO-certified manufacturers across {IMPORT_COUNTRIES.length} countries to bring
             world-class medical products to Bangladesh.
           </p>
         </motion.div>

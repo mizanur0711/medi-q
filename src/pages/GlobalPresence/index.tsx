@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import WorldMap, { IMPORT_COUNTRIES } from '../../components/WorldMap';
 
 const STATS = [
-  { value: '4', label: 'Source Countries' },
+  { value: IMPORT_COUNTRIES.length.toString(), label: 'Source Countries' },
   { value: '5+', label: 'Product Categories' },
   { value: 'ISO 13485', label: 'Certified Partners' },
   { value: '12+', label: 'Years Importing' },
@@ -54,7 +54,7 @@ export default function GlobalPresencePage() {
                 Our Global Reach
               </h1>
               <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-                Partnering with world-class manufacturers across 4 countries to bring certified
+                Partnering with world-class manufacturers across {IMPORT_COUNTRIES.length} countries to bring certified
                 medical excellence to Bangladesh. Click a country on the map to explore.
               </p>
             </motion.div>
