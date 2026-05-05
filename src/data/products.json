@@ -16,7 +16,7 @@
       "Instant service available in Chittagong"
     ],
     "imageUrl": "/images/products/aero-q.jpg",
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "NB-002",
@@ -285,7 +285,7 @@
     ],
     "imageUrl": "/images/products/pulse-oximeter.jpg",
     "specSheetUrl": null,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "DD-002",

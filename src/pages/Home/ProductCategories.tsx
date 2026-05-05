@@ -33,6 +33,26 @@ const iconMap: Record<string, ReactElement> = {
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M3 6h18M3 14h18M5 18h14a2 2 0 002-2v-4H3v4a2 2 0 002 2z" />
     </svg>
   ),
+  wheelchair: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <circle cx="8" cy="16" r="5" strokeWidth={1.5} />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 19L16 8H13L11 4H8" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 8L18 13.5" />
+    </svg>
+  ),
+  home: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 22V12h6v10" />
+    </svg>
+  ),
+  'test-tube': (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5h0c-1.4 0-2.5-1.1-2.5-2.5V2" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.5 2h7" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.5 16h-5" />
+    </svg>
+  ),
 };
 
 const gradients = [
