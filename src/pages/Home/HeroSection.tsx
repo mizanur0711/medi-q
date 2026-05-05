@@ -79,8 +79,7 @@ export default function HeroSection() {
           </p>
 
           <p className="text-lg md:text-xl text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed">
-            MEDI-Q imports world-class surgical instruments, medical devices, and healthcare essentials
-            from certified international manufacturers — serving hospitals and clinics across all 8 divisions of Bangladesh.
+            As a fully import-oriented enterprise, MEDI-Q offers a diverse portfolio of high-quality products under its own brand, earning strong recognition and trust within the Bangladeshi market.
           </p>
 
           <motion.div

@@ -95,7 +95,7 @@ export default function AboutPage() {
               <span className="inline-block px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-green-300 text-sm font-semibold mb-5">About MEDI-Q</span>
               <h1 className="heading-xl text-white mb-5">Trusted Quality.<br /><span className="text-gradient-gold">Since 2012.</span></h1>
               <p className="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>
-                "Our mission is to make world-class healthcare products accessible to every hospital, clinic, and patient in Bangladesh."
+                "Our mission is to provide superior products that meet the evolving needs of our customers while upholding our reputation for quality, integrity, and trust."
               </p>
             </motion.div>
           </div>
@@ -109,9 +109,9 @@ export default function AboutPage() {
                 <span className="inline-block px-4 py-1.5 rounded-full bg-green-100 text-green-700 text-sm font-semibold mb-4">Our Story</span>
                 <h2 className="heading-md text-slate-900 mb-5">Built on Purpose.<br />Driven by Healthcare.</h2>
                 <div className="space-y-4 text-slate-600 leading-relaxed">
-                  <p>MEDI-Q was founded in 2012 by <strong className="text-slate-800">MD Jahedul Alam</strong> as a sister concern of Service &amp; Corporation, with a singular vision: to bridge the gap between world-class medical manufacturers and Bangladesh's rapidly growing healthcare sector.</p>
-                  <p>From our earliest days sourcing surgical instruments from certified European factories, we have grown into one of Bangladesh's most comprehensive medical goods importers — now supplying over 500 hospitals, clinics, and healthcare providers across all 8 divisions of the country.</p>
-                  <p>Our flagship achievement is the <strong className="text-slate-800">MEDI-Q Nebulizer Range</strong> — 12 models spanning home care, pediatric, clinical, and ICU use. It is the largest nebulizer range in Bangladesh, and a testament to our belief that respiratory care deserves options.</p>
+                  <p>Established in 2012, <strong className="text-slate-800">MEDI-Q</strong> is a distinguished sister concern of Service &amp; Corporation, founded by <strong className="text-slate-800">MD Jahedul Alam</strong>, son of MD Nurul Amin. As a fully import-oriented enterprise, MEDI-Q offers a diverse portfolio of high-quality products under its own brand, earning strong recognition and trust within the Bangladeshi market.</p>
+                  <p>At MEDI-Q, excellence and customer satisfaction are at the core of everything we do, reflected in our tagline: <strong className="text-slate-800">“Live Life Healthier.”</strong> In today’s increasingly competitive and globalized marketplace, we remain committed to delivering products that meet the highest standards of quality, safety, and reliability.</p>
+                  <p>Over the years, MEDI-Q has achieved impressive growth, marked by a steady increase in turnover and a strengthening market presence. This progress reflects our unwavering dedication to excellence and continuous improvement. Our mission is to provide superior products that meet the evolving needs of our customers while upholding our reputation for quality, integrity, and trust.</p>
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
@@ -135,7 +135,7 @@ export default function AboutPage() {
           <div className="container-custom">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { icon: '🎯', title: 'Our Mission', text: 'To source and deliver the highest quality medical goods from certified international manufacturers, making world-class healthcare accessible to every corner of Bangladesh.' },
+                { icon: '🎯', title: 'Our Mission', text: 'To provide superior products that meet the evolving needs of our customers while upholding our reputation for quality, integrity, and trust.' },
                 { icon: '👁️', title: 'Our Vision', text: 'To become Bangladesh\'s leading medical goods company — transitioning from import excellence toward local manufacturing of surgical and medical devices.' },
                 { icon: '💚', title: 'Our Tagline', text: '"Live Life Healthier" — a commitment not just to our customers, but to every patient whose life is touched by the products we supply.', tagline: true },
               ].map((item) => (
