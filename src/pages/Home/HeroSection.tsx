@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const stats = [
   { value: '12+', label: 'Years of Excellence' },
-  { value: '12', label: 'Nebulizer Models' },
+  { value: '13', label: 'Nebulizer Models' },
   { value: '500+', label: 'Healthcare Partners' },
   { value: '8', label: 'Divisions Covered' },
 ];

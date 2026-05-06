@@ -247,66 +247,6 @@
     "isNew": false
   },
   {
-    "id": "SI-001",
-    "name": "Surgical Scissors — Mayo Straight",
-    "slug": "surgical-scissors-mayo-straight",
-    "category": "Surgical Instruments",
-    "family": "surgical-instruments",
-    "origin": "Germany",
-    "description": "Premium German stainless steel Mayo surgical scissors for cutting heavy tissues and sutures. Autoclavable and reusable.",
-    "features": [
-      "316L stainless steel",
-      "Straight blade, blunt-blunt tip",
-      "Available: 14 cm, 17 cm, 19 cm",
-      "Autoclavable (134°C)",
-      "Mirror or satin finish",
-      "Lifetime blade warranty"
-    ],
-    "imageUrl": "/images/products/scissors-mayo.jpg",
-    "specSheetUrl": null,
-    "isNew": false
-  },
-  {
-    "id": "SI-002",
-    "name": "Surgical Forceps — Tissue",
-    "slug": "surgical-forceps-tissue",
-    "category": "Surgical Instruments",
-    "family": "surgical-instruments",
-    "origin": "Germany",
-    "description": "High-quality tissue forceps designed for delicate tissue handling in general surgery, OB-GYN, and ENT procedures.",
-    "features": [
-      "1×2 teeth for secure tissue grip",
-      "Tungsten carbide tips (gold handle)",
-      "Non-slip serrated body",
-      "Available in 3 lengths",
-      "CE marked",
-      "Autoclavable"
-    ],
-    "imageUrl": "/images/products/forceps-tissue.jpg",
-    "specSheetUrl": null,
-    "isNew": false
-  },
-  {
-    "id": "DD-001",
-    "name": "Digital Pulse Oximeter",
-    "slug": "digital-pulse-oximeter",
-    "category": "Diagnostic Devices",
-    "family": "diagnostic-devices",
-    "origin": "China",
-    "description": "Fingertip pulse oximeter for instant SpO2 and pulse rate measurement. Suitable for clinical spot-checks and home monitoring.",
-    "features": [
-      "SpO2 accuracy: ±2%",
-      "Pulse rate: 30–250 bpm",
-      "OLED display, 4 orientations",
-      "Low battery indicator",
-      "2 AAA batteries included",
-      "CE and FDA cleared"
-    ],
-    "imageUrl": "/images/products/pulse-oximeter.jpg",
-    "specSheetUrl": null,
-    "isNew": true
-  },
-  {
     "id": "DD-002",
     "name": "Digital Blood Pressure Monitor",
     "slug": "digital-bp-monitor",
@@ -323,66 +263,6 @@
       "USB and battery powered"
     ],
     "imageUrl": "/images/products/bp-monitor.jpg",
-    "specSheetUrl": null,
-    "isNew": false
-  },
-  {
-    "id": "PPE-001",
-    "name": "Surgical Gloves — Sterile Latex",
-    "slug": "surgical-gloves-sterile-latex",
-    "category": "PPE & Protective Equipment",
-    "family": "ppe",
-    "origin": "China",
-    "description": "Powder-free sterile latex surgical gloves with micro-textured fingertips for superior grip in sterile environments.",
-    "features": [
-      "Powder-free, pre-sterile",
-      "Micro-textured grip surface",
-      "Sizes 6.0 to 9.0",
-      "AQL 1.5 (surgical grade)",
-      "50 pairs per box",
-      "ISO 10282 certified"
-    ],
-    "imageUrl": "/images/products/surgical-gloves.jpg",
-    "specSheetUrl": null,
-    "isNew": false
-  },
-  {
-    "id": "PPE-002",
-    "name": "N95 Respirator Mask",
-    "slug": "n95-respirator-mask",
-    "category": "PPE & Protective Equipment",
-    "family": "ppe",
-    "origin": "USA",
-    "description": "NIOSH-approved N95 filtering facepiece respirator providing ≥95% filtration of airborne particles. Cup-shaped design for all-day comfort.",
-    "features": [
-      "NIOSH N95 approved",
-      "Filters ≥95% airborne particles",
-      "Cup-shaped, adjustable nose clip",
-      "Latex-free",
-      "20 masks per box",
-      "Single use"
-    ],
-    "imageUrl": "/images/products/n95-mask.jpg",
-    "specSheetUrl": null,
-    "isNew": false
-  },
-  {
-    "id": "HF-001",
-    "name": "Patient Examination Bed",
-    "slug": "patient-examination-bed",
-    "category": "Hospital Furniture",
-    "family": "hospital-furniture",
-    "origin": "China",
-    "description": "Durable coated steel examination table with adjustable backrest and pull-out footrest. Padded vinyl upholstery for patient comfort.",
-    "features": [
-      "Powder-coated steel frame",
-      "Adjustable backrest 0–85°",
-      "Pull-out footrest",
-      "High-density foam + vinyl cover",
-      "Weight capacity: 200 kg",
-      "Easy-clean surface"
-    ],
-    "imageUrl": "/images/products/exam-bed.jpg",
     "specSheetUrl": null,
     "isNew": false
   },
@@ -496,38 +376,6 @@
       "Standard 1pc/CTN packaging"
     ],
     "imageUrl": "/images/products/wheelchair-809PU.jpg",
-    "isNew": false
-  },
-  {
-    "id": "LS-001",
-    "name": "ASSURE EDTA K2 Vacuum Tube",
-    "slug": "assure-edta-k2-tube",
-    "category": "Laboratory Supplies",
-    "family": "laboratory-supplies",
-    "origin": "China",
-    "description": "Sterile vacuum blood collection tube with EDTA K2 additive for hematology tests[cite: 3].",
-    "features": [
-      "2ml/3ml volume options",
-      "Lavender top for easy identification",
-      "Vacuum sealed for accuracy"
-    ],
-    "imageUrl": "/images/products/edta-tube.jpg",
-    "isNew": false
-  },
-  {
-    "id": "PPE-003",
-    "name": "MEDI-Q Face Mask (HQ)",
-    "slug": "medi-q-face-mask-hq",
-    "category": "PPE & Protective Equipment",
-    "family": "ppe",
-    "origin": "China",
-    "description": "High-quality 3-ply surgical face masks for personal and clinical protection[cite: 3].",
-    "features": [
-      "50 pieces per box",
-      "High-quality (HQ) material",
-      "Comfortable earloop design"
-    ],
-    "imageUrl": "/images/products/face-mask-hq.jpg",
     "isNew": false
   }
 ]
