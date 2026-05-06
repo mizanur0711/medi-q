@@ -15,7 +15,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/aero-q.jpg",
+    "imageUrl": "/images/products/aero-q.webp",
     "isNew": true
   },
   {
@@ -34,8 +34,27 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/safe-care.jpg",
-    "isNew": false
+    "imageUrl": "/images/products/safe-care.webp",
+    "isNew": true
+  },
+  {
+    "id": "NB-013",
+    "name": "NEXT Compressor Nebulizer",
+    "slug": "next-compressor-nebulizer",
+    "category": "Nebulizers",
+    "family": "nebulizers",
+    "origin": "China",
+    "description": "Reliable NEXT brand compressor nebulizer for consistent medication delivery.",
+    "features": [
+      "3-year warranty with replacement guarantee",
+      "High aerosol output for quick treatment",
+      "Particle size: MMAD < 5 μm",
+      "Quiet motor operation < 65 dB",
+      "Includes adult & pediatric mask",
+      "Instant service available in Chittagong"
+    ],
+    "imageUrl": "/images/products/next.webp",
+    "isNew": true
   },
   {
     "id": "NB-003",
@@ -54,7 +73,7 @@
       "Instant service available in Chittagong"
     ],
     "imageUrl": "/images/products/pure.webp",
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "NB-004",
@@ -72,7 +91,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/neat.jpg",
+    "imageUrl": "/images/products/neat.webp",
     "isNew": false
   },
   {
@@ -91,7 +110,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/lider.jpg",
+    "imageUrl": "/images/products/lider.webp",
     "isNew": false
   },
   {
@@ -110,7 +129,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/secure.jpg",
+    "imageUrl": "/images/products/secure.webp",
     "isNew": false
   },
   {
@@ -130,7 +149,7 @@
       "Instant service available in Chittagong"
     ],
     "imageUrl": "/images/products/my-check.webp",
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "NB-008",
@@ -148,7 +167,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/lively.jpg",
+    "imageUrl": "/images/products/lively.webp",
     "isNew": false
   },
   {
@@ -167,7 +186,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/granzia.jpg",
+    "imageUrl": "/images/products/granzia.webp",
     "isNew": false
   },
   {
@@ -186,8 +205,8 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/medi-q-youth.jpg",
-    "isNew": false
+    "imageUrl": "/images/products/medi-q.webp",
+    "isNew": true
   },
   {
     "id": "NB-011",
@@ -205,7 +224,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/alo.jpg",
+    "imageUrl": "/images/products/alo.webp",
     "isNew": false
   },
   {
@@ -224,7 +243,7 @@
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
     ],
-    "imageUrl": "/images/products/easy.jpg",
+    "imageUrl": "/images/products/easy.webp",
     "isNew": false
   },
   {
@@ -461,6 +480,22 @@
       "Sold as a pair"
     ],
     "imageUrl": "/images/products/hand-crutch.jpg",
+    "isNew": false
+  },
+  {
+    "id": "RM-003",
+    "name": "Manual Wheelchair 809PU",
+    "slug": "manual-wheelchair-809PU",
+    "category": "Rehabilitation & Mobility",
+    "family": "rehabilitation-mobility",
+    "origin": "China",
+    "description": "Standard folding wheelchair with durable steel frame and comfortable seating[cite: 3].",
+    "features": [
+      "Chromed steel frame",
+      "Fixed armrest and footrest",
+      "Standard 1pc/CTN packaging"
+    ],
+    "imageUrl": "/images/products/wheelchair-809PU.jpg",
     "isNew": false
   },
   {
