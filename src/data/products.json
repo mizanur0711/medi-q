@@ -247,26 +247,6 @@
     "isNew": false
   },
   {
-    "id": "pm-001",
-    "name": "Digital Blood Pressure Monitor",
-    "slug": "digital-bp-monitor",
-    "category": "Pressure Machine & stethoscope",
-    "family": "pressure-machine-stethoscope",
-    "origin": "Japan",
-    "description": "Upper arm digital sphygmomanometer with memory storage for 60 readings. Irregular heartbeat detection and hypertension indicator.",
-    "features": [
-      "WHO hypertension colour indicator",
-      "60-reading memory (2 users)",
-      "Irregular heartbeat detection",
-      "Adult cuff 22\u201342 cm",
-      "Accuracy: \u00b13 mmHg",
-      "USB and battery powered"
-    ],
-    "imageUrl": "/images/products/bp-monitor.jpg",
-    "specSheetUrl": null,
-    "isNew": false
-  },
-  {
     "id": "air-mattress-001",
     "name": "MEDI-Q Air Mattress",
     "slug": "medi-q-air-mattress",
@@ -301,7 +281,7 @@
     "isNew": false
   },
   {
-    "id": "pm-002",
+    "id": "pm-001",
     "name": "ALPK2 Aneroid BP Machine",
     "slug": "alpk2-bp-machine-japan",
     "category": "Pressure Machine & stethoscope",
@@ -429,22 +409,6 @@
     "isNew": true
   },
   {
-    "id": "pm-003",
-    "name": "ALPK2 BP from japan",
-    "slug": "alpk2-bp-from-japan",
-    "category": "Pressure Machine & stethoscope",
-    "family": "pressure-machine-stethoscope",
-    "origin": "Japan",
-    "description": "Authentic Japanese ALPK2 blood pressure monitor providing clinical-grade accuracy and durability for reliable daily use.",
-    "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
-    ],
-    "imageUrl": "/images/products/placeholder.jpg",
-    "isNew": true
-  },
-  {
     "id": "st-001",
     "name": "Stethoscope from japan",
     "slug": "stethoscope-from-japan",
@@ -461,7 +425,7 @@
     "isNew": true
   },
   {
-    "id": "pm-004",
+    "id": "pm-002",
     "name": "Medi-Q digital BP Machine",
     "slug": "medi-q-digital-bp-machine",
     "category": "Pressure Machine & stethoscope",
