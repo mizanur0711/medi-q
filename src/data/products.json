@@ -265,51 +265,21 @@
     "isNew": false
   },
   {
-    "id": "hot-water-bag-001",
-    "name": "MEDI-PRO Hot Water Bag",
-    "slug": "medi-pro-hot-water-bag",
-    "category": "Hot Water Bag",
-    "family": "hot-water-bag",
-    "origin": "China",
-    "description": "High-quality rubber hot water bag for heat therapy and pain relief.",
-    "features": [
-      "1-year warranty",
-      "Reliable leak-proof design",
-      "Standard single size"
-    ],
-    "imageUrl": "/images/products/hot-water-bag.jpg",
-    "isNew": false
-  },
-  {
     "id": "pm-001",
     "name": "ALPK2 Aneroid BP Machine",
-    "slug": "alpk2-bp-machine-japan",
+    "slug": "alpk2-aneroid-bp-machine",
     "category": "Pressure Machine & stethoscope",
     "family": "pressure-machine-stethoscope",
     "origin": "Japan",
-    "description": "Professional manual sphygmomanometer from the renowned Japanese brand ALPK2.",
+    "description": "Professional-grade ALPK2 aneroid sphygmomanometer, precision-engineered in Japan for accurate and reliable blood pressure measurement in clinical and home settings.",
     "features": [
-      "Precision Japanese engineering",
-      "Includes cuff and gauge set",
-      "Clinical-grade accuracy"
+      "High-precision manometer gauge for accurate pressure readings",
+      "Durable nylon cuff with high-quality Velcro for a secure fit",
+      "Standard latex bulb with a refined air release valve for smooth deflation",
+      "Authentic Japanese technology ensuring long-term calibration stability",
+      "Portable and lightweight design, ideal for healthcare professionals on the go"
     ],
-    "imageUrl": "/images/products/alpk2-manual.jpg",
-    "isNew": false
-  },
-  {
-    "id": "dt-001",
-    "name": "FIT Digital Thermometer",
-    "slug": "fit-digital-thermometer",
-    "category": "Digital thermometer",
-    "family": "digital-thermometer",
-    "origin": "China",
-    "description": "Fast and accurate digital thermometer for oral, axillary, or rectal use.",
-    "features": [
-      "1-year warranty",
-      "Digital LCD display",
-      "Single-pack clinical grade"
-    ],
-    "imageUrl": "/images/products/fit-thermometer.jpg",
+    "imageUrl": "/images/products/alpk2-aneroid-bp-machine.jpeg",
     "isNew": false
   },
   {
@@ -341,7 +311,7 @@
       "Adjustable height settings",
       "Sold as a pair"
     ],
-    "imageUrl": "/images/products/hand-crutch.jpg",
+    "imageUrl": "/images/products/hand_crutch.webp",
     "isNew": false
   },
   {
@@ -367,13 +337,16 @@
     "category": "Wheel Chair",
     "family": "wheel-chair",
     "origin": "China",
-    "description": "Premium commode wheelchair model 609B offering exceptional comfort, hygiene and mobility support for patients.",
+    "description": "This multipurpose Commode Wheelchair (Model 609B) is a heavy-duty mobility solution designed to provide both transport and toileting assistance for individuals with limited mobility.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Dual-functionality serving as both a standard wheelchair and a mobile commode",
+      "U-shaped cushioned seat with a removable center section for easy access",
+      "Durable chrome-plated steel frame for long-lasting stability and support",
+      "Equipped with a safety lap belt and adjustable footrests for patient security",
+      "Padded armrests and high-back upholstery for enhanced user comfort",
+      "Large rear wheels for easy self-propulsion and smooth maneuverability"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/commode-wheel-chair-609b.jpeg",
     "isNew": true
   },
   {
@@ -383,13 +356,16 @@
     "category": "Wheel Chair",
     "family": "wheel-chair",
     "origin": "China",
-    "description": "Ergonomic commode wheelchair model 609A designed for safe and comfortable patient care and easy maneuverability.",
+    "description": "The Commode Wheelchair (Model 609A) is a versatile mobility aid that combines the features of a standard wheelchair with a built-in toilet facility, designed for maximum convenience and dignity.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Integrated commode function with a removable pail for hygienic maintenance",
+      "Soft, cushioned seat with a removable insert for quick conversion",
+      "High-gloss chrome-finished frame for corrosion resistance and durability",
+      "Large, spoked rear wheels designed for smooth movement and self-propulsion",
+      "Foldable footrests and ergonomic padded armrests for enhanced user comfort",
+      "Compact and sturdy design suitable for both indoor and clinical environments"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/commode-wheel-chair-609a.jpeg",
     "isNew": true
   },
   {
@@ -399,29 +375,34 @@
     "category": "Wheel Chair",
     "family": "wheel-chair",
     "origin": "China",
-    "description": "Versatile sleeping wheelchair 608GC featuring an adjustable reclining backrest for ultimate relaxation and mobility.",
+    "description": "The Medi-Q Reclining 'Sleeping' Wheelchair (Model 608GC) is a premium, multi-functional mobility solution designed for patients requiring long-term seating comfort and the ability to rest in a fully reclined position.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "High-back reclining design allows the user to transition from sitting to a sleeping position",
+      "Equipped with a padded headrest and neck support for maximum comfort during rest",
+      "Elevating leg rests with padded calf supports to reduce pressure and improve circulation",
+      "Includes an integrated commode function with a removable seat section",
+      "Durable chrome-plated steel frame with front and rear braking systems for enhanced safety",
+      "Solid, puncture-proof wheels designed for smooth indoor and outdoor maneuverability"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/sleeping-wheel-chair-608gc.jpeg",
     "isNew": true
   },
   {
     "id": "st-001",
-    "name": "Stethoscope from japan",
-    "slug": "stethoscope-from-japan",
+    "name": "ALPK2 double-head Stethoscope",
+    "slug": "alpk2-double-head-stethoscope",
     "category": "Pressure Machine & stethoscope",
     "family": "pressure-machine-stethoscope",
     "origin": "Japan",
-    "description": "High-precision Japanese stethoscope engineered for superior acoustic clarity and comfortable diagnostic examinations.",
+    "description": "High-sensitivity ALPK2 double-head stethoscope designed for superior acoustic performance and clear auscultation of heart and lung sounds.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Dual-head chestpiece for detecting both high and low-frequency sounds",
+      "Soft ear tips designed for acoustic seal and user comfort",
+      "Flexible, heavy-walled tubing for excellent sound transmission and durability",
+      "Lightweight aluminum alloy construction for effortless daily use",
+      "Made in Japan with premium materials for professional diagnostic reliability"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/alpk2-double-head-stethoscope.jpeg",
     "isNew": true
   },
   {
@@ -431,13 +412,17 @@
     "category": "Pressure Machine & stethoscope",
     "family": "pressure-machine-stethoscope",
     "origin": "Japan",
-    "description": "Advanced Medi-Q digital blood pressure machine with a large display and intelligent irregular heartbeat detection.",
+    "description": "The Medi-Q BP-S31 is a high-precision digital blood pressure monitor featuring a large, high-contrast LED display and voice broadcast for effortless health monitoring at home.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Large backlit LED display for clear reading in any lighting",
+      "Smart vocal guide and voice report for elder-friendly use",
+      "Dual-user mode with 99x2 memory slots to track historical data",
+      "Built-in arrhythmia (irregular heartbeat) and hypertension detection",
+      "Type-C rechargeable design for modern convenience and portability",
+      "Universal comfort cuff with 'Cuff Wrap Guide' to ensure correct positioning",
+      "Validated accuracy with a 36-month warranty for peace of mind"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/medi-q-digital-bp-machine.webp",
     "isNew": true
   },
   {
@@ -513,131 +498,156 @@
     "isNew": true
   },
   {
-    "id": "dt-002",
-    "name": "Digital Thermometer FIT with One year warranty",
-    "slug": "digital-thermometer-fit-with-one-year-warranty",
+    "id": "dt-001",
+    "name": "FIT Digital Thermometer",
+    "slug": "fit-digital-thermometer",
     "category": "Digital thermometer",
     "family": "digital-thermometer",
     "origin": "China",
-    "description": "Fast and reliable FIT digital thermometer featuring an easy-to-read display and backed by a comprehensive one-year warranty.",
+    "description": "The Fit Digital Thermometer is a reliable and easy-to-use medical device designed for fast, accurate temperature readings for the whole family.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Fast and accurate readout for efficient health monitoring",
+      "Audible beeper alert when peak temperature is reached",
+      "Last temperature memory recall for easy tracking of fever trends",
+      "Clear digital LCD display for effortless reading",
+      "Compact and lightweight design with a protective storage case",
+      "CE certified (0598) and backed by a 1-year warranty for quality assurance"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/fit-digital-thermometer.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "dt-002",
+    "name": "NEXT Digital Thermometer",
+    "slug": "next-digital-thermometer",
+    "category": "Digital thermometer",
+    "family": "digital-thermometer",
+    "origin": "China",
+    "description": "The NEXT Digital Thermometer is a high-quality, clinical-grade medical device featuring Sweden Design and Technology for fast and reliable fever detection in adults and children.",
+    "features": [
+      "Quick 60-second measurement time for efficient fever tracking",
+      "Dual scale functionality supporting both Celsius (°C) and Fahrenheit (°F)",
+      "Large, easy-to-read LCD screen for clear results",
+      "Mercury-free (100% Safe NO Hg) design ensuring patient safety",
+      "Built-in 10-second beeper to signal completion of measurement",
+      "Includes a protective storage case and battery for immediate use",
+      "Comes with a 1-year warranty for guaranteed quality and performance"
+    ],
+    "imageUrl": "/images/products/next-digital-thermometer.jpeg",
     "isNew": true
   },
   {
     "id": "dt-003",
-    "name": "Digital Thermometer NEXT with One year warranty",
-    "slug": "digital-thermometer-next-with-one-year-warranty",
+    "name": "Accurate Digital Thermometer",
+    "slug": "accurate-digital-thermometer",
     "category": "Digital thermometer",
     "family": "digital-thermometer",
     "origin": "China",
-    "description": "Next generation digital thermometer ensuring rapid temperature readings, complete with a reassuring one-year warranty.",
+    "description": "The Accurate Digital Thermometer provides fast and highly precise body temperature readings, featuring a classic rigid tip design for reliable performance in clinical and home settings.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "High-speed measurement for quick and efficient results",
+      "Clear digital LCD display for easy temperature reading",
+      "Memory recall function for the last measured temperature",
+      "Beeper indicator to signal the end of measurement",
+      "Automatic power-off function to extend battery life",
+      "Professional accuracy suitable for oral, underarm, or rectal use"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
-    "isNew": true
-  },
-  {
-    "id": "dt-004",
-    "name": "Digital Thermometer, brand: Accurate",
-    "slug": "digital-thermometer-brand-accurate",
-    "category": "Digital thermometer",
-    "family": "digital-thermometer",
-    "origin": "China",
-    "description": "High-precision Accurate brand digital thermometer, designed for safe, quick, and highly reliable clinical temperature measurements.",
-    "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
-    ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/accurate-digital-thermometer.jpeg",
     "isNew": true
   },
   {
     "id": "ot-001",
-    "name": "Oral thermometer Medi -Q",
-    "slug": "oral-thermometer-medi-q",
+    "name": "Medi-Q Oral thermometer",
+    "slug": "medi-q-oral-thermometer",
     "category": "Oral thermometer",
     "family": "oral-thermometer",
     "origin": "China",
-    "description": "Clinical standard Medi-Q oral thermometer providing traditional, highly precise temperature readings for reliable diagnostics.",
+    "description": "The Medi-Q Clinical Prismatic Oral Thermometer is a high-accuracy glass thermometer designed for reliable body temperature measurement in professional and home healthcare settings.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Prismatic glass design for enhanced scale visibility and easier reading",
+      "Clinical-grade accuracy for precise oral temperature monitoring",
+      "Protective pink hardshell carrying case for hygienic storage",
+      "Durable, easy-to-sanitize glass construction",
+      "Fahrenheit scale for standard temperature tracking",
+      "Compact and portable for travel or first-aid kit inclusion"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/medi-q-oral-thermometer.jpeg",
     "isNew": true
   },
   {
     "id": "ot-002",
-    "name": "Oral thermometer SMIC",
-    "slug": "oral-thermometer-smic",
+    "name": "SMIC Oral thermometer",
+    "slug": "smic-oral-thermometer",
     "category": "Oral thermometer",
     "family": "oral-thermometer",
     "origin": "China",
-    "description": "Trusted SMIC oral thermometer engineered for consistent and precise clinical temperature monitoring.",
+    "description": "The SMIC Clinical Prismatic Oral Thermometer is a high-accuracy glass thermometer designed for professional clinical monitoring and dependable home health tracking.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Prismatic glass design for a magnified scale, ensuring effortless reading",
+      "Clinical-grade precision specifically calibrated for oral temperature measurement",
+      "Fahrenheit scale for standard medical temperature recording",
+      "Includes a durable pink hardshell case for hygienic protection and portability",
+      "Bulk packaging option (12 pieces) available for medical facilities and clinics",
+      "CE certified, meeting international standards for medical device safety"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/smic-oral-thermometer.jpeg",
     "isNew": true
   },
   {
     "id": "ot-003",
-    "name": "Clinical Thermometer Toshiba",
-    "slug": "clinical-thermometer-toshiba",
+    "name": "Toshiba Clinical Thermometer",
+    "slug": "toshiba-clinical-thermometer",
     "category": "Oral thermometer",
     "family": "oral-thermometer",
     "origin": "China",
-    "description": "Premium Toshiba clinical oral thermometer delivering exceptionally accurate temperature measurements with superior build quality.",
+    "description": "The Toshiba Clinical Armpit Thermometer is a reliable, traditional glass thermometer designed for accurate body temperature monitoring with dual-scale readings.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Dual-scale measurement providing both Celsius (°C) and Fahrenheit (°F)",
+      "Specifically designed for clinical accuracy via armpit (axillary) use",
+      "High-contrast white background for clear and easy scale reading",
+      "Each thermometer includes an individual protective blue-capped storage case",
+      "Bulk pack containing 12 pieces, ideal for clinics, schools, or pharmacies",
+      "CE certified, ensuring compliance with international health and safety standards"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/toshiba-clinical-thermometer.webp",
+    "isNew": true
+  },
+  {
+    "id": "hot-water-bag-001",
+    "name": "Medi Pro Hot Water Bag",
+    "slug": "medi-pro-hot-water-bag",
+    "category": "Hot Water Bag",
+    "family": "hot-water-bag",
+    "origin": "China",
+    "description": "The Medi Pro Hot Water Bottle is a high-quality, durable therapeutic bag designed to provide long-lasting warmth and effective relief for muscle aches, cramps, and tension.",
+    "features": [
+      "Large 2-liter capacity for extended heat retention",
+      "100% leakage-proof design ensuring maximum safety and reliability",
+      "Engineered to keep water warm for long periods of time",
+      "Supplied with a soft, patterned fabric cover for added comfort and skin protection",
+      "Ideal for natural pain relief and soothing warmth during cold weather",
+      "Backed by a 6-month guarantee for quality assurance"
+    ],
+    "imageUrl": "/images/products/medi-pro-hot-water-bag.jpeg",
     "isNew": true
   },
   {
     "id": "hot-water-bag-002",
-    "name": "Hot Water Bag - Medi Pro with 6 Months warranty",
-    "slug": "hot-water-bag-medi-pro-with-6-months-warranty",
+    "name": "PURE Hot Water Bottle",
+    "slug": "pure-hot-water-bottle",
     "category": "Hot Water Bag",
     "family": "hot-water-bag",
     "origin": "China",
-    "description": "Heavy-duty Medi Pro hot water bag perfect for heat therapy and pain relief, including a secure 6-month warranty.",
+    "description": "The PURE Hot Water Bottle is a premium-grade therapeutic heat pack designed to provide safe, soothing warmth for natural pain relief and comfort.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Generous 2.5-liter capacity for long-lasting heat retention",
+      "Ribbed on both sides to ensure gradual heat release and prevent direct skin burns",
+      "Conforms to British Standards B.S. No. 1970:2012 for safety and quality",
+      "Complies with Australian Trade Practices Regulations 2008",
+      "Available in multiple vibrant colors (Red, Green, Blue)",
+      "Backed by a 12-month quality guarantee"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
-    "isNew": true
-  },
-  {
-    "id": "hot-water-bag-003",
-    "name": "High Quality Hot Water Bag - PURE with 12 Months warranty",
-    "slug": "high-quality-hot-water-bag-pure-with-12-months-warranty",
-    "category": "Hot Water Bag",
-    "family": "hot-water-bag",
-    "origin": "China",
-    "description": "Premium PURE hot water bag crafted for long-lasting heat retention and comfort, backed by a full 12-month warranty.",
-    "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
-    ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/pure-hot-water-bottle.jpeg",
     "isNew": true
   },
   {
@@ -713,19 +723,22 @@
     "isNew": true
   },
   {
-    "id": "dt-005",
-    "name": "Flexible Digital Thermometer, B: Accurate",
-    "slug": "flexible-digital-thermometer-b-accurate",
+    "id": "dt-004",
+    "name": "Accurate Digital Thermometer with Flexible Tip",
+    "slug": "accurate-digital-thermometer-with-flexible-tip",
     "category": "Digital thermometer",
     "family": "digital-thermometer",
     "origin": "China",
-    "description": "Advanced Accurate brand flexible digital thermometer, combining safe, comfortable usage with rapid and precise readings.",
+    "description": "The Accurate Digital Thermometer is an improved, fast-reading medical device designed for maximum comfort and precision in body temperature monitoring.",
     "features": [
-      "Premium quality assurance",
-      "International standard compliance",
-      "Designed for reliable performance"
+      "Flexible tip for enhanced safety and patient comfort during use",
+      "Fast and improved response time for quick temperature readings",
+      "Large, easy-to-read digital LCD display with memory function",
+      "Suitable for oral, rectal, or underarm (axillary) measurement",
+      "Beeper alert to signal when measurement is complete",
+      "Automatic shut-off to preserve battery life"
     ],
-    "imageUrl": "/images/products/placeholder.jpg",
+    "imageUrl": "/images/products/accurate-digital-thermometer-with-flexible-tip.jpeg",
     "isNew": true
   },
   {
