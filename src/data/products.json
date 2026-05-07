@@ -3,14 +3,14 @@
     "id": "NB-001",
     "name": "AERO-Q Compressor Nebulizer",
     "slug": "aero-q-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "High-performance compressor nebulizer by AERO-Q, engineered for efficient respiratory therapy.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -22,14 +22,14 @@
     "id": "NB-002",
     "name": "SAFE CARE Compressor Nebulizer",
     "slug": "safe-care-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "Reliable SAFE CARE brand compressor nebulizer for consistent medication delivery.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -41,14 +41,14 @@
     "id": "NB-013",
     "name": "NEXT Compressor Nebulizer",
     "slug": "next-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "Reliable NEXT brand compressor nebulizer for consistent medication delivery.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -60,14 +60,14 @@
     "id": "NB-003",
     "name": "PURE Compressor Nebulizer",
     "slug": "pure-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "PURE brand compressor nebulizer designed for ease of use and effective aerosol output.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -79,14 +79,14 @@
     "id": "NB-004",
     "name": "NEAT Piston Compressor Nebulizer",
     "slug": "neat-piston-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "NEAT brand featuring piston compressor technology for professional-grade respiratory support.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -98,14 +98,14 @@
     "id": "NB-005",
     "name": "LIDER Compressor Nebulizer",
     "slug": "lider-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "LIDER brand compressor nebulizer, a staple for home and clinic aerosol therapy.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -117,14 +117,14 @@
     "id": "NB-006",
     "name": "SECURE Compressor Nebulizer",
     "slug": "secure-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "Secure brand nebulizer providing consistent and comfortable medication delivery.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -136,14 +136,14 @@
     "id": "NB-007",
     "name": "MY CHECK Compressor Nebulizer",
     "slug": "my-check-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
-    "description": "MY CHECK brand compressor nebulizer, part of the comprehensive Medi Q product line[cite: 1, 2].",
+    "description": "MY CHECK brand compressor nebulizer, part of the comprehensive Medi Q product line.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -155,14 +155,14 @@
     "id": "NB-008",
     "name": "LIVELY Compressor Nebulizer",
     "slug": "lively-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "LIVELY brand featuring a compact design suitable for home and clinic environments.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -174,14 +174,14 @@
     "id": "NB-009",
     "name": "GRANZIA Piston Compressor Nebulizer",
     "slug": "granzia-piston-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "GRANZIA brand specialized in aerosol therapy using piston compressor technology.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -193,14 +193,14 @@
     "id": "NB-010",
     "name": "MEDI-Q Compressor Nebulizer",
     "slug": "medi-q-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "Premium MEDI-Q brand compressor nebulizer, reliable choice for home and clinic aerosol therapy.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -212,14 +212,14 @@
     "id": "NB-011",
     "name": "ALO Compressor Nebulizer",
     "slug": "alo-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "A robust ALO brand compressor nebulizer offering reliable respiratory support.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -231,14 +231,14 @@
     "id": "NB-012",
     "name": "EASY Compressor Nebulizer",
     "slug": "easy-compressor-nebulizer",
-    "category": "Nebulizers",
-    "family": "nebulizers",
+    "category": "Nebulizer",
+    "family": "nebulizer",
     "origin": "China",
     "description": "EASY brand compressor nebulizer featuring simple, user-friendly controls.",
     "features": [
       "3-year warranty with replacement guarantee",
       "High aerosol output for quick treatment",
-      "Particle size: MMAD < 5 μm",
+      "Particle size: MMAD < 5 \u03bcm",
       "Quiet motor operation < 65 dB",
       "Includes adult & pediatric mask",
       "Instant service available in Chittagong"
@@ -247,19 +247,19 @@
     "isNew": false
   },
   {
-    "id": "DD-002",
+    "id": "pm-001",
     "name": "Digital Blood Pressure Monitor",
     "slug": "digital-bp-monitor",
-    "category": "Diagnostic Devices",
-    "family": "diagnostic-devices",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
     "origin": "Japan",
     "description": "Upper arm digital sphygmomanometer with memory storage for 60 readings. Irregular heartbeat detection and hypertension indicator.",
     "features": [
       "WHO hypertension colour indicator",
       "60-reading memory (2 users)",
       "Irregular heartbeat detection",
-      "Adult cuff 22–42 cm",
-      "Accuracy: ±3 mmHg",
+      "Adult cuff 22\u201342 cm",
+      "Accuracy: \u00b13 mmHg",
       "USB and battery powered"
     ],
     "imageUrl": "/images/products/bp-monitor.jpg",
@@ -267,27 +267,29 @@
     "isNew": false
   },
   {
-    "id": "HC-001",
+    "id": "air-mattress-001",
     "name": "MEDI-Q Air Mattress",
     "slug": "medi-q-air-mattress",
-    "category": "Home Care",
-    "family": "home-care",
+    "category": "Air mattress",
+    "family": "air-mattress",
     "origin": "China",
-    "description": "Medical-grade air mattress designed for pressure sore prevention and comfort.",
+    "description": "The Medi-Q Anti-Decubitus Air Mattress system is a medical-grade pressure relief solution designed to prevent and treat bedsores and pressure ulcers for bedridden patients.",
     "features": [
-      "1-year warranty included",
-      "Single bed size",
-      "Durable medical-grade PVC"
+      "Alternating pressure system to stimulate blood circulation",
+      "Durable, medical-grade PVC material for long-lasting use",
+      "Adjustable pressure pump for customized firmness and comfort",
+      "Low-noise operation ideal for home and hospital environments",
+      "Easy-to-clean surface and simple installation over standard beds"
     ],
     "imageUrl": "/images/products/air-mattress.jpg",
     "isNew": false
   },
   {
-    "id": "HC-002",
+    "id": "hot-water-bag-001",
     "name": "MEDI-PRO Hot Water Bag",
     "slug": "medi-pro-hot-water-bag",
-    "category": "Home Care",
-    "family": "home-care",
+    "category": "Hot Water Bag",
+    "family": "hot-water-bag",
     "origin": "China",
     "description": "High-quality rubber hot water bag for heat therapy and pain relief.",
     "features": [
@@ -299,13 +301,13 @@
     "isNew": false
   },
   {
-    "id": "DD-003",
+    "id": "pm-002",
     "name": "ALPK2 Aneroid BP Machine",
     "slug": "alpk2-bp-machine-japan",
-    "category": "Diagnostic Devices",
-    "family": "diagnostic-devices",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
     "origin": "Japan",
-    "description": "Professional manual sphygmomanometer from the renowned Japanese brand ALPK2[cite: 3].",
+    "description": "Professional manual sphygmomanometer from the renowned Japanese brand ALPK2.",
     "features": [
       "Precision Japanese engineering",
       "Includes cuff and gauge set",
@@ -315,13 +317,13 @@
     "isNew": false
   },
   {
-    "id": "DD-004",
+    "id": "dt-001",
     "name": "FIT Digital Thermometer",
     "slug": "fit-digital-thermometer",
-    "category": "Diagnostic Devices",
-    "family": "diagnostic-devices",
+    "category": "Digital thermometer",
+    "family": "digital-thermometer",
     "origin": "China",
-    "description": "Fast and accurate digital thermometer for oral, axillary, or rectal use[cite: 3].",
+    "description": "Fast and accurate digital thermometer for oral, axillary, or rectal use.",
     "features": [
       "1-year warranty",
       "Digital LCD display",
@@ -331,29 +333,29 @@
     "isNew": false
   },
   {
-    "id": "RM-001",
+    "id": "wheel-001",
     "name": "Manual Wheelchair 809",
     "slug": "manual-wheelchair-809",
-    "category": "Rehabilitation & Mobility",
-    "family": "rehabilitation-mobility",
+    "category": "Wheel Chair",
+    "family": "wheel-chair",
     "origin": "China",
-    "description": "Standard folding wheelchair with durable steel frame and comfortable seating[cite: 3].",
+    "description": "Standard folding wheelchair with durable steel frame and comfortable seating.",
     "features": [
       "Chromed steel frame",
       "Fixed armrest and footrest",
       "Standard 1pc/CTN packaging"
     ],
-    "imageUrl": "/images/products/wheelchair-809.jpg",
-    "isNew": false
+    "imageUrl": "/images/products/809.jpg",
+    "isNew": true
   },
   {
-    "id": "RM-002",
+    "id": "wheel-002",
     "name": "Aluminum Hand Crutch",
     "slug": "aluminum-hand-crutch",
-    "category": "Rehabilitation & Mobility",
-    "family": "rehabilitation-mobility",
+    "category": "Wheel Chair",
+    "family": "wheel-chair",
     "origin": "China",
-    "description": "Lightweight aluminum crutches with adjustable height for mobility support[cite: 3].",
+    "description": "Lightweight aluminum crutches with adjustable height for mobility support.",
     "features": [
       "High-quality aluminum construction",
       "Adjustable height settings",
@@ -363,19 +365,565 @@
     "isNew": false
   },
   {
-    "id": "RM-003",
+    "id": "wheel-003",
     "name": "Manual Wheelchair 809PU",
     "slug": "manual-wheelchair-809PU",
-    "category": "Rehabilitation & Mobility",
-    "family": "rehabilitation-mobility",
+    "category": "Wheel Chair",
+    "family": "wheel-chair",
     "origin": "China",
-    "description": "Standard folding wheelchair with durable steel frame and comfortable seating[cite: 3].",
+    "description": "Standard folding wheelchair with PU seat and comfortable seating.",
     "features": [
       "Chromed steel frame",
       "Fixed armrest and footrest",
       "Standard 1pc/CTN packaging"
     ],
-    "imageUrl": "/images/products/wheelchair-809PU.jpg",
-    "isNew": false
+    "imageUrl": "/images/products/809PU.jpg",
+    "isNew": true
+  },
+  {
+    "id": "wheel-004",
+    "name": "Commode Wheel Chair 609B",
+    "slug": "commode-wheel-chair-609b",
+    "category": "Wheel Chair",
+    "family": "wheel-chair",
+    "origin": "China",
+    "description": "Premium commode wheelchair model 609B offering exceptional comfort, hygiene and mobility support for patients.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "wheel-005",
+    "name": "Commode Wheel Chair 609A",
+    "slug": "commode-wheel-chair-609a",
+    "category": "Wheel Chair",
+    "family": "wheel-chair",
+    "origin": "China",
+    "description": "Ergonomic commode wheelchair model 609A designed for safe and comfortable patient care and easy maneuverability.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "wheel-006",
+    "name": "Sleeping Wheel Chair 608GC",
+    "slug": "sleeping-wheel-chair-608gc",
+    "category": "Wheel Chair",
+    "family": "wheel-chair",
+    "origin": "China",
+    "description": "Versatile sleeping wheelchair 608GC featuring an adjustable reclining backrest for ultimate relaxation and mobility.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "pm-003",
+    "name": "ALPK2 BP from japan",
+    "slug": "alpk2-bp-from-japan",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
+    "origin": "Japan",
+    "description": "Authentic Japanese ALPK2 blood pressure monitor providing clinical-grade accuracy and durability for reliable daily use.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "st-001",
+    "name": "Stethoscope from japan",
+    "slug": "stethoscope-from-japan",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
+    "origin": "Japan",
+    "description": "High-precision Japanese stethoscope engineered for superior acoustic clarity and comfortable diagnostic examinations.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "pm-004",
+    "name": "Medi-Q digital BP Machine",
+    "slug": "medi-q-digital-bp-machine",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
+    "origin": "Japan",
+    "description": "Advanced Medi-Q digital blood pressure machine with a large display and intelligent irregular heartbeat detection.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "air-mattress-002",
+    "name": "Safe Care Air Mattress",
+    "slug": "safe-care-air-mattress",
+    "category": "Air mattress",
+    "family": "air-mattress",
+    "origin": "China",
+    "description": "The Safe Care Anti-Decubitus Air Mattress system is a high-performance medical surface designed to effectively prevent and manage pressure sores for long-term bedridden patients.",
+    "features": [
+      "Alternating air pressure cycle to reduce skin friction and pressure",
+      "Bubble-style pad design for optimal weight distribution",
+      "User-friendly adjustable pump for personalized pressure control",
+      "Quiet motor technology for a restful patient environment",
+      "Heavy-duty, medical-grade PVC material for durability and hygiene"
+    ],
+    "imageUrl": "/images/products/safe-care-air-mattress.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "face-mask-001",
+    "name": "Medi-Q Face Mask",
+    "slug": "medi-q-face-mask",
+    "category": "Face masks",
+    "family": "face-masks",
+    "origin": "China",
+    "description": "High-quality Medi-Q anti-bacterial surgical masks designed for reliable respiratory protection and clinical-grade hygiene.",
+    "features": [
+      "Anti-bacterial properties for enhanced safety",
+      "Surgical-grade quality for professional and personal use",
+      "Lightweight and breathable design with secure ear loops",
+      "Convenient dispenser box for easy access",
+      "Medi-Q quality assurance for dependable performance"
+    ],
+    "imageUrl": "/images/products/medi-q-face-mask.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "face-mask-002",
+    "name": "Secure Face Mask",
+    "slug": "secure-face-mask",
+    "category": "Face masks",
+    "family": "face-masks",
+    "origin": "China",
+    "description": "High-quality SECURE disposable face masks designed for effective personal protection and hygiene in daily use.",
+    "features": [
+      "Secure brand personal protective equipment",
+      "Standard face mask design for respiratory coverage",
+      "Bulk pack containing 50 pieces per box",
+      "Convenient perforated top for easy dispensing",
+      "Suitable for medical, professional, or general-purpose use"
+    ],
+    "imageUrl": "/images/products/secure-face-mask.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "glove-001",
+    "name": "Dragon Vinyl Gloves",
+    "slug": "dragon-vinyl-gloves",
+    "category": "Gloves",
+    "family": "gloves",
+    "origin": "China",
+    "description": "High-quality, powder-free disposable vinyl gloves designed for reliable barrier protection and tactile sensitivity in medical and general-purpose applications.",
+    "features": [
+      "Powder-free and disposable",
+      "Ambidextrous design for versatile use",
+      "100 gloves per pack",
+      "Premium quality and international standard compliance",
+      "Single-use for hygiene and safety"
+    ],
+    "imageUrl": "/images/products/dragon-vinyl-gloves.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "dt-002",
+    "name": "Digital Thermometer FIT with One year warranty",
+    "slug": "digital-thermometer-fit-with-one-year-warranty",
+    "category": "Digital thermometer",
+    "family": "digital-thermometer",
+    "origin": "China",
+    "description": "Fast and reliable FIT digital thermometer featuring an easy-to-read display and backed by a comprehensive one-year warranty.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "dt-003",
+    "name": "Digital Thermometer NEXT with One year warranty",
+    "slug": "digital-thermometer-next-with-one-year-warranty",
+    "category": "Digital thermometer",
+    "family": "digital-thermometer",
+    "origin": "China",
+    "description": "Next generation digital thermometer ensuring rapid temperature readings, complete with a reassuring one-year warranty.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "dt-004",
+    "name": "Digital Thermometer, brand: Accurate",
+    "slug": "digital-thermometer-brand-accurate",
+    "category": "Digital thermometer",
+    "family": "digital-thermometer",
+    "origin": "China",
+    "description": "High-precision Accurate brand digital thermometer, designed for safe, quick, and highly reliable clinical temperature measurements.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "ot-001",
+    "name": "Oral thermometer Medi -Q",
+    "slug": "oral-thermometer-medi-q",
+    "category": "Oral thermometer",
+    "family": "oral-thermometer",
+    "origin": "China",
+    "description": "Clinical standard Medi-Q oral thermometer providing traditional, highly precise temperature readings for reliable diagnostics.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "ot-002",
+    "name": "Oral thermometer SMIC",
+    "slug": "oral-thermometer-smic",
+    "category": "Oral thermometer",
+    "family": "oral-thermometer",
+    "origin": "China",
+    "description": "Trusted SMIC oral thermometer engineered for consistent and precise clinical temperature monitoring.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "ot-003",
+    "name": "Clinical Thermometer Toshiba",
+    "slug": "clinical-thermometer-toshiba",
+    "category": "Oral thermometer",
+    "family": "oral-thermometer",
+    "origin": "China",
+    "description": "Premium Toshiba clinical oral thermometer delivering exceptionally accurate temperature measurements with superior build quality.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "hot-water-bag-002",
+    "name": "Hot Water Bag - Medi Pro with 6 Months warranty",
+    "slug": "hot-water-bag-medi-pro-with-6-months-warranty",
+    "category": "Hot Water Bag",
+    "family": "hot-water-bag",
+    "origin": "China",
+    "description": "Heavy-duty Medi Pro hot water bag perfect for heat therapy and pain relief, including a secure 6-month warranty.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "hot-water-bag-003",
+    "name": "High Quality Hot Water Bag - PURE with 12 Months warranty",
+    "slug": "high-quality-hot-water-bag-pure-with-12-months-warranty",
+    "category": "Hot Water Bag",
+    "family": "hot-water-bag",
+    "origin": "China",
+    "description": "Premium PURE hot water bag crafted for long-lasting heat retention and comfort, backed by a full 12-month warranty.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "nebulizer-oxygen-mask-001",
+    "name": "Medi-Q Nebulizer Mask Adult & Child",
+    "slug": "medi-q-nebulizer-mask-adult-child",
+    "category": "Nebulizer & Oxygen Mask",
+    "family": "nebulizer-oxygen-mask",
+    "origin": "China",
+    "description": "High-quality Medi-Q nebulizer masks available in both adult and child sizes, designed for efficient medication delivery and maximum patient comfort.",
+    "features": [
+      "Available in Adult and Child sizes for a precise fit",
+      "Soft, medical-grade material for comfortable facial contact",
+      "Equipped with adjustable nose clips to minimize leakage",
+      "Standard connector compatible with most nebulizer machines",
+      "Designed for effective aerosol therapy and clear visibility during use"
+    ],
+    "imageUrl": "/images/products/medi-q-nebulizer-mask-adult-child.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "nebulizer-oxygen-mask-002",
+    "name": "Medi-Q Oxygen Mask",
+    "slug": "medi-q-oxygen-mask",
+    "category": "Nebulizer & Oxygen Mask",
+    "family": "nebulizer-oxygen-mask",
+    "origin": "China",
+    "description": "Professional-grade Medi-Q oxygen masks designed to provide reliable oxygen delivery and respiratory support for patients in clinical and home care settings.",
+    "features": [
+      "Soft, ergonomic design for enhanced patient comfort",
+      "Adjustable nose clip for a secure and customized fit",
+      "High-transparency material for easy patient monitoring",
+      "Universal connector for compatibility with standard oxygen tubing",
+      "Lightweight and durable construction suitable for long-term use"
+    ],
+    "imageUrl": "/images/products/medi-q-oxygen-mask.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "nebulizer-oxygen-mask-003",
+    "name": "Medi-Q Nebulizer Mask",
+    "slug": "medi-q-nebulizer-mask",
+    "category": "Nebulizer & Oxygen Mask",
+    "family": "nebulizer-oxygen-mask",
+    "origin": "China",
+    "description": "High-quality Medi-Q nebulizer masks designed to deliver medication effectively through aerosol therapy, ensuring patient comfort and treatment compliance.",
+    "features": [
+      "Soft, anatomical design for a comfortable fit across different age groups",
+      "Adjustable nose clip to minimize air leakage and optimize treatment delivery",
+      "High-clarity material allows for easy monitoring of the patient's condition during therapy",
+      "Universal connector ensures compatibility with all standard nebulizer machines",
+      "Durable, medical-grade plastic construction that is lightweight and easy to handle"
+    ],
+    "imageUrl": "/images/products/medi-q-nebulizer-mask.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "wipes-002",
+    "name": "Kuerjingjing Alcohol Wipes",
+    "slug": "kuerjingjing-alcohol-wipes",
+    "category": "Wipes",
+    "family": "wipes",
+    "origin": "China",
+    "description": "High-efficiency disinfectant wipes saturated with 75% alcohol, designed to provide rapid sterilization and deep cleaning for hands and surfaces.",
+    "features": [
+      "75% Alcohol concentration for effective sanitization",
+      "99.9% Sterilization rate against common germs",
+      "Large pack containing 50 individual wipes",
+      "Resealable flip-top lid to maintain moisture",
+      "Suitable for skin, electronics, and household surfaces"
+    ],
+    "imageUrl": "/images/products/alcohol-wipes-kuerjingjing.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "dt-005",
+    "name": "Flexible Digital Thermometer, B: Accurate",
+    "slug": "flexible-digital-thermometer-b-accurate",
+    "category": "Digital thermometer",
+    "family": "digital-thermometer",
+    "origin": "China",
+    "description": "Advanced Accurate brand flexible digital thermometer, combining safe, comfortable usage with rapid and precise readings.",
+    "features": [
+      "Premium quality assurance",
+      "International standard compliance",
+      "Designed for reliable performance"
+    ],
+    "imageUrl": "/images/products/placeholder.jpg",
+    "isNew": true
+  },
+  {
+    "id": "tips-001",
+    "name": "Assure Pipette Tip (Yellow)",
+    "slug": "assure-pipette-tip-yellow",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-precision ASSURE yellow pipette tips designed for accurate liquid handling and laboratory efficiency, ensuring consistent performance in scientific research and clinical testing.",
+    "features": [
+      "Universal fit compatible with most standard micropipettes",
+      "Yellow color-coded for quick identification of volume range (up to 200µl)",
+      "Engineered for smooth liquid release and minimal sample retention",
+      "Manufactured from high-quality, medical-grade polypropylene",
+      "Packaged in bulk for high-volume laboratory requirements"
+    ],
+    "imageUrl": "/images/products/assure-pipette-tip-yellow.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-002",
+    "name": "Assure Centrifuge tube",
+    "slug": "assure-centrifuge-tube",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-quality ASSURE centrifuge tubes designed for reliable sample containment and high-speed centrifugation in laboratory and clinical settings.",
+    "features": [
+      "Secure screw-cap design to prevent leakage and sample evaporation",
+      "Conical bottom for optimal sample concentration and pelleting",
+      "Clear, easy-to-read graduation markings for precise volume measurement",
+      "Constructed from durable, medical-grade polypropylene",
+      "Large writing area for clear sample identification and labeling"
+    ],
+    "imageUrl": "/images/products/assure-centrifuge-tube.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-003",
+    "name": "Assure Pipette Tip (Blue)",
+    "slug": "assure-pipette-tip-blue",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-precision ASSURE blue pipette tips engineered for accurate liquid handling and laboratory efficiency, ensuring consistent performance in scientific research and clinical testing.",
+    "features": [
+      "Universal fit compatible with most standard micropipettes",
+      "Blue color-coded for quick identification of volume range (1000µl and above)",
+      "Engineered for smooth liquid release and minimal sample retention",
+      "Manufactured from high-quality, medical-grade polypropylene",
+      "Available in bulk packaging for high-volume laboratory requirements"
+    ],
+    "imageUrl": "/images/products/assure-pipette-tip-blue.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-004",
+    "name": "Assure Vacuum Blood Green",
+    "slug": "assure-vacuum-blood-green",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-quality ASSURE vacuum blood collection tubes featuring a green-coded cap, specifically designed for hematology tests using heparin.",
+    "features": [
+      "Precise vacuum volume for accurate blood-to-additive ratio",
+      "Color-coded green cap for quick identification (hematology tests)",
+      "Contains sodium heparin anticoagulant for plasma separation",
+      "Sterile interior ensuring sample integrity and safety",
+      "Durable, shatter-resistant tube construction"
+    ],
+    "imageUrl": "/images/products/assure-vacuum-blood-green.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-006",
+    "name": "Assure Vacuum Blood Red",
+    "slug": "assure-vacuum-blood-red",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-quality ASSURE vacuum blood collection tubes with a red-coded cap, ideal for serum chemistry, serology, and cross-matching tests where a clot activator is used.",
+    "features": [
+      "Precise vacuum volume for accurate blood-to-additive ratio",
+      "Color-coded red cap for quick identification (serum tests)",
+      "Clot activator ensures rapid clot formation",
+      "Sterile interior for optimal sample integrity",
+      "Durable, shatter-resistant tube construction"
+    ],
+    "imageUrl": "/images/products/assure-vacuum-blood-red.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-007",
+    "name": "Assure Vacuum Blood Grey",
+    "slug": "assure-vacuum-blood-grey",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-quality ASSURE vacuum blood collection tubes featuring a grey-coded cap, specifically designed for glucose and lactate testing with precise vacuum technology.",
+    "features": [
+      "Precise vacuum volume for accurate blood-to-additive ratio",
+      "Color-coded grey cap for quick identification (glucose/lactate testing)",
+      "Contains sodium fluoride and potassium oxalate to inhibit glycolysis",
+      "Sterile interior ensuring sample integrity and safety",
+      "Durable, shatter-resistant tube construction"
+    ],
+    "imageUrl": "/images/products/assure-vacuum-blood-grey.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-008",
+    "name": "Assure Vacuum Blood Black",
+    "slug": "assure-vacuum-blood-black",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-quality ASSURE vacuum blood collection tubes featuring a black-coded cap, specifically designed for Erythrocyte Sedimentation Rate (ESR) testing with precise vacuum technology.",
+    "features": [
+      "Precise vacuum volume for accurate blood-to-additive ratio",
+      "Color-coded black cap for quick identification (ESR testing)",
+      "Sterile interior ensuring sample integrity and safety",
+      "Durable, shatter-resistant tube construction",
+      "Universal fit for standard blood collection needles and holders"
+    ],
+    "imageUrl": "/images/products/assure-vacuum-blood-black.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "wipes-001",
+    "name": "Taiana Adult Underpad",
+    "slug": "taiana-adult-underpad",
+    "category": "Wipes",
+    "family": "wipes",
+    "origin": "China",
+    "description": "High-absorbency Taiana adult underpads designed to provide reliable moisture protection and surface hygiene for individuals requiring extra care.",
+    "features": [
+      "Rapid absorption and effective liquid isolation to keep surfaces dry",
+      "Large 'L' size format measuring 60x90cm",
+      "Pack of 10 disposable underpads",
+      "Suitable for elderly care, post-operative recovery, and menstrual or maternity use",
+      "Certified quality with ISO 9001, SGS, and CE compliance"
+    ],
+    "imageUrl": "/images/products/taiana-adult-underpad.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "tips-009",
+    "name": "Sail Microscope Slides",
+    "slug": "sail-microscope-slides",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "Premium Sail Brand microscope slides crafted from high-quality clear glass, providing a flawless surface for specimen mounting and microscopic observation in laboratories and educational settings.",
+    "features": [
+      "High-transparency clear glass for superior optical clarity",
+      "Pre-cleaned and ready for immediate laboratory use",
+      "Uniform thickness and flat surface for consistent imaging",
+      "Ground edges for safe handling and durability",
+      "Standard size compatible with most laboratory microscopes"
+    ],
+    "imageUrl": "/images/products/sail-microscope-slides.jpeg",
+    "isNew": true
   }
 ]

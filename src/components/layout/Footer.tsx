@@ -11,11 +11,11 @@ const quickLinks = [
 ];
 
 const productLinks = [
-  { name: 'Nebulizers', path: '/products?category=nebulizers' },
-  { name: 'Surgical Instruments', path: '/products?category=surgical-instruments' },
-  { name: 'Diagnostic Devices', path: '/products?category=diagnostic-devices' },
-  { name: 'PPE & Protective', path: '/products?category=ppe' },
-  { name: 'Hospital Furniture', path: '/products?category=hospital-furniture' },
+  { name: 'Nebulizer', path: '/products?category=nebulizer' },
+  { name: 'Wheel Chair', path: '/products?category=wheel-chair' },
+  { name: 'Digital thermometer', path: '/products?category=digital-thermometer' },
+  { name: 'Pressure Machine', path: '/products?category=pressure-machine-stethoscope' },
+  { name: 'Face masks', path: '/products?category=face-masks' },
 ];
 
 const socialLinks = [

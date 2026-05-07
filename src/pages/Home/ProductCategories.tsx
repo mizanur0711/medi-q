@@ -12,27 +12,6 @@ const iconMap: Record<string, ReactElement> = {
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>
   ),
-  scissors: (
-    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <circle cx="6" cy="6" r="3" /><circle cx="6" cy="18" r="3" />
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12" />
-    </svg>
-  ),
-  activity: (
-    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
-    </svg>
-  ),
-  shield: (
-    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-    </svg>
-  ),
-  bed: (
-    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M3 6h18M3 14h18M5 18h14a2 2 0 002-2v-4H3v4a2 2 0 002 2z" />
-    </svg>
-  ),
   wheelchair: (
     <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <circle cx="8" cy="16" r="5" strokeWidth={1.5} />
@@ -40,10 +19,14 @@ const iconMap: Record<string, ReactElement> = {
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 8L18 13.5" />
     </svg>
   ),
-  home: (
+  bed: (
     <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 22V12h6v10" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M3 6h18M3 14h18M5 18h14a2 2 0 002-2v-4H3v4a2 2 0 002 2z" />
+    </svg>
+  ),
+  activity: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
     </svg>
   ),
   'test-tube': (
@@ -51,6 +34,36 @@ const iconMap: Record<string, ReactElement> = {
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5h0c-1.4 0-2.5-1.1-2.5-2.5V2" />
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.5 2h7" />
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.5 16h-5" />
+    </svg>
+  ),
+  shield: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+    </svg>
+  ),
+  flame: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 7.1 10c-1.5 2 1.5 4 1.5 4s-1-2 1-3c2-2 3-5 1-9 0 0 5 2 7 9s0 6-3 6z" />
+    </svg>
+  ),
+  thermometer: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 16.5A4.5 4.5 0 1115 16.5a4.5 4.5 0 01-6 0zM12 2v10M12 12a2 2 0 100 4 2 2 0 000-4z" />
+    </svg>
+  ),
+  heart: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+    </svg>
+  ),
+  droplet: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3c-4.418 7-8 10.4-8 14a8 8 0 1016 0c0-3.6-3.582-7-8-14z" />
+    </svg>
+  ),
+  hand: (
+    <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 11.5V6a2 2 0 014 0v5M11 9V4a2 2 0 014 0v7M15 10V5a2 2 0 014 0v9a8 8 0 01-16 0v-2.5a2 2 0 014 0V11.5" />
     </svg>
   ),
 };

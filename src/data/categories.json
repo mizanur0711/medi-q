@@ -1,34 +1,98 @@
 [
   {
-    "id": "cat-nebulizers",
-    "name": "Nebulizers",
-    "slug": "nebulizers",
-    "description": "Bangladesh's largest nebulizer range — 12 models for home, clinical, and ICU use.",
+    "id": "cat-nebulizer",
+    "name": "Nebulizer",
+    "slug": "nebulizer",
+    "description": "High-quality nebulizers for effective respiratory therapy.",
     "icon": "wind",
-    "imageUrl": "/images/categories/nebulizers.jpg"
+    "imageUrl": "/images/categories/placeholder.jpg"
   },
   {
-    "id": "cat-diagnostic-devices",
-    "name": "Diagnostic Devices",
-    "slug": "diagnostic-devices",
-    "description": "Accurate diagnostic tools including pulse oximeters, BP monitors, glucometers, and thermometers.",
-    "icon": "activity",
-    "imageUrl": "/images/categories/diagnostic-devices.jpg"
-  },
-  {
-    "id": "cat-rehabilitation-mobility",
-    "name": "Rehabilitation & Mobility",
-    "slug": "rehabilitation-mobility",
-    "description": "Supportive equipment including wheelchairs, hand crutches, and orthopedic casts.",
+    "id": "cat-wheelchair",
+    "name": "Wheel Chair",
+    "slug": "wheel-chair",
+    "description": "Durable and comfortable wheelchairs for enhanced mobility.",
     "icon": "wheelchair",
-    "imageUrl": "/images/categories/mobility.jpg"
+    "imageUrl": "/images/categories/placeholder.jpg"
   },
   {
-    "id": "cat-home-care",
-    "name": "Home Care",
-    "slug": "home-care",
-    "description": "Essential home care items like air mattresses, hot water bags, and dental care.",
-    "icon": "home",
-    "imageUrl": "/images/categories/home-health.jpg"
+    "id": "cat-hot-water-bag",
+    "name": "Hot Water Bag",
+    "slug": "hot-water-bag",
+    "description": "Reliable hot water bags for soothing heat therapy and pain relief.",
+    "icon": "flame",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-digital-thermometer",
+    "name": "Digital thermometer",
+    "slug": "digital-thermometer",
+    "description": "Fast and accurate digital thermometers for daily health monitoring.",
+    "icon": "thermometer",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-oral-thermometer",
+    "name": "Oral thermometer",
+    "slug": "oral-thermometer",
+    "description": "Clinical-grade oral thermometers for precise temperature measurement.",
+    "icon": "thermometer",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-pressure-stethoscope",
+    "name": "Pressure Machine & stethoscope",
+    "slug": "pressure-machine-stethoscope",
+    "description": "Professional blood pressure monitors and stethoscopes.",
+    "icon": "heart",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-tips-tube",
+    "name": "Tips & Tube",
+    "slug": "tips-tube",
+    "description": "Essential laboratory tips, tubes, and medical consumables.",
+    "icon": "test-tube",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-air-mattress",
+    "name": "Air mattress",
+    "slug": "air-mattress",
+    "description": "Medical air mattresses designed to prevent pressure sores.",
+    "icon": "bed",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-neb-ox-mask",
+    "name": "Nebulizer & Oxygen Mask",
+    "slug": "nebulizer-oxygen-mask",
+    "description": "Premium oxygen and nebulizer masks for adult and pediatric use.",
+    "icon": "wind",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-face-masks",
+    "name": "Face masks",
+    "slug": "face-masks",
+    "description": "High-quality protective face masks for safety and hygiene.",
+    "icon": "shield",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-wipes",
+    "name": "Wipes",
+    "slug": "wipes",
+    "description": "Medical-grade wipes and underpads for clinical and home care.",
+    "icon": "droplet",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-gloves",
+    "name": "Gloves",
+    "slug": "gloves",
+    "description": "Durable and protective medical gloves for all procedures.",
+    "icon": "hand",
+    "imageUrl": "/images/categories/placeholder.jpg"
   }
 ]
