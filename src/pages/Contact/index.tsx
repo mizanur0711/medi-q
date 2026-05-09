@@ -1,4 +1,4 @@
-import { useState, useRef, type FormEvent } from 'react';
+import { useState, useEffect, useRef, type FormEvent } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, useInView } from 'framer-motion';
 
@@ -12,12 +12,29 @@ const contactInfo = [
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [num1, setNum1] = useState(0);
+  const [num2, setNum2] = useState(0);
+  const [captchaAnswer, setCaptchaAnswer] = useState('');
+  const [captchaError, setCaptchaError] = useState('');
   const formRef = useRef<HTMLFormElement>(null);
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
 
+  useEffect(() => {
+    setNum1(Math.floor(Math.random() * 10) + 1);
+    setNum2(Math.floor(Math.random() * 10) + 1);
+  }, []);
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (parseInt(captchaAnswer) !== num1 + num2) {
+      setCaptchaError('Incorrect CAPTCHA answer. Please try again.');
+      setNum1(Math.floor(Math.random() * 10) + 1);
+      setNum2(Math.floor(Math.random() * 10) + 1);
+      setCaptchaAnswer('');
+      return;
+    }
+    setCaptchaError('');
     setLoading(true);
     const form = e.currentTarget;
     const data = new FormData(form);
@@ -129,6 +146,21 @@ export default function ContactPage() {
                           <textarea id="contact-message" name="message" required rows={5}
                             className="w-full px-4 py-3 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all resize-none"
                             placeholder="Tell us about your requirements, the products you're interested in, or the quantities you need…" />
+                        </div>
+
+                        <div>
+                          <label htmlFor="contact-captcha" className="block text-sm font-semibold text-slate-700 mb-1.5">
+                            What is {num1} + {num2}? <span className="text-red-500">*</span>
+                          </label>
+                          <input id="contact-captcha" type="number" required
+                            value={captchaAnswer}
+                            onChange={(e) => {
+                              setCaptchaAnswer(e.target.value);
+                              if (captchaError) setCaptchaError('');
+                            }}
+                            className={`w-full px-4 py-3 border ${captchaError ? 'border-red-500 focus:ring-red-400' : 'border-slate-200 focus:ring-green-400'} rounded-xl text-sm focus:outline-none focus:ring-2 focus:border-transparent transition-all`}
+                            placeholder="Enter the sum" />
+                          {captchaError && <p className="text-red-500 text-sm mt-1">{captchaError}</p>}
                         </div>
 
                         <button type="submit" disabled={loading} className="btn-primary w-full justify-center py-3.5 disabled:opacity-60 disabled:cursor-not-allowed">
