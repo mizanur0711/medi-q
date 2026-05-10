@@ -55,13 +55,11 @@ export default function OurJourneyPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
                 <div className="lg:col-span-2 bg-gradient-to-br from-slate-100 to-slate-200 aspect-square md:aspect-auto flex items-center justify-center p-12 relative overflow-hidden group">
                   {/* Image Placeholder */}
-                  <div className="w-full h-full border-2 border-dashed border-slate-400/50 rounded-2xl flex flex-col items-center justify-center text-slate-500 bg-white/50 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/80 group-hover:border-slate-400">
-                    <svg className="w-16 h-16 mb-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <span className="font-semibold tracking-wide">Founder Image Placeholder</span>
-                    <span className="text-sm mt-1 opacity-70">Dimensions: 800x1000px</span>
-                  </div>
+                  <img
+                    src="/images/team/Md.-Nurul-amin.jpeg"
+                    alt="Md. Nurul Amin - Founder of Service & Corporation"
+                    className="w-full h-full object-cover rounded-2xl shadow-md transition-transform duration-700 group-hover:scale-105"
+                  />
                 </div>
                 <div className="p-10 lg:p-16 lg:col-span-3 flex flex-col justify-center">
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-green-50 text-green-700 text-xs font-bold uppercase tracking-widest mb-6 w-max border border-green-100">
@@ -69,7 +67,7 @@ export default function OurJourneyPage() {
                   </div>
                   <h2 className="text-4xl font-extrabold text-slate-900 mb-2">Md. Nurul Amin</h2>
                   <p className="text-lg text-green-600 font-medium mb-6">Founder, Service &amp; Corporation</p>
-                  
+
                   <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
                     <p>
                       In 1969, Md. Nurul Amin laid the foundation of Service &amp; Corporation in Riazuddin Bazar, Chattogram. What started as a small shop focused on surgical products and imported medicines has blossomed into a nationwide legacy.
@@ -109,14 +107,14 @@ export default function OurJourneyPage() {
         <section className="section-padding bg-slate-50">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-16">
-               <span className="inline-block px-4 py-1.5 rounded-full bg-slate-200/50 text-slate-600 text-sm font-semibold mb-4 border border-slate-200">Timeline</span>
+              <span className="inline-block px-4 py-1.5 rounded-full bg-slate-200/50 text-slate-600 text-sm font-semibold mb-4 border border-slate-200">Timeline</span>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Decades of Excellence</h2>
             </div>
-            
+
             <div className="relative">
               {/* Vertical line */}
               <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-green-300 via-emerald-400 to-green-600 rounded-full transform md:-translate-x-1/2 opacity-30"></div>
-              
+
               <div className="space-y-12 relative z-10">
                 {timelineEvents.map((event, index) => {
                   const isEven = index % 2 === 0;
@@ -143,11 +141,11 @@ export default function OurJourneyPage() {
                       {/* Right content (visible on mobile, and desktop for odd items) */}
                       <div className={`w-11/12 md:w-5/12 pl-6 md:pl-8 md:text-left ${!isEven ? 'block' : 'md:opacity-0 hidden md:block'}`}>
                         {(!isEven || window.innerWidth < 768) && (
-                           <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                             <span className="text-3xl font-black text-green-600 opacity-20 block mb-2">{event.year}</span>
-                             <h3 className="text-xl font-bold text-slate-900 mb-2">{event.title}</h3>
-                             <p className="text-slate-600 text-sm leading-relaxed">{event.description}</p>
-                           </div>
+                          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                            <span className="text-3xl font-black text-green-600 opacity-20 block mb-2">{event.year}</span>
+                            <h3 className="text-xl font-bold text-slate-900 mb-2">{event.title}</h3>
+                            <p className="text-slate-600 text-sm leading-relaxed">{event.description}</p>
+                          </div>
                         )}
                       </div>
                     </div>
@@ -163,37 +161,37 @@ export default function OurJourneyPage() {
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                 <h2 className="text-3xl font-extrabold text-slate-900 mb-6">Our Mission &amp; Vision</h2>
-                 <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                    Service &amp; Corporation aims to become a leading importer and supplier of surgical products by delivering high-quality, affordable healthcare solutions.
-                 </p>
-                 <p className="text-lg text-slate-600 leading-relaxed">
-                    We focus on innovation, ethical practices, and building long-term partnerships while maintaining global quality standards.
-                 </p>
-                 <div className="mt-8">
-                    <Link to="/products" className="btn-primary">Explore Our Products</Link>
-                 </div>
+                <h2 className="text-3xl font-extrabold text-slate-900 mb-6">Our Mission &amp; Vision</h2>
+                <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                  Service &amp; Corporation aims to become a leading importer and supplier of surgical products by delivering high-quality, affordable healthcare solutions.
+                </p>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  We focus on innovation, ethical practices, and building long-term partnerships while maintaining global quality standards.
+                </p>
+                <div className="mt-8">
+                  <Link to="/products" className="btn-primary">Explore Our Products</Link>
+                </div>
               </div>
               <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100">
-                 <h3 className="text-xl font-bold text-slate-900 mb-6">Core Values</h3>
-                 <ul className="space-y-4">
-                    {[
-                      "Customer-first approach",
-                      "Long-term business sustainability",
-                      "Quality assurance",
-                      "Ethical operations",
-                      "Brand trust and reliability"
-                    ].map((value, idx) => (
-                      <li key={idx} className="flex items-center gap-4">
-                        <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 text-green-600">
-                           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                           </svg>
-                        </div>
-                        <span className="text-slate-700 font-medium text-lg">{value}</span>
-                      </li>
-                    ))}
-                 </ul>
+                <h3 className="text-xl font-bold text-slate-900 mb-6">Core Values</h3>
+                <ul className="space-y-4">
+                  {[
+                    "Customer-first approach",
+                    "Long-term business sustainability",
+                    "Quality assurance",
+                    "Ethical operations",
+                    "Brand trust and reliability"
+                  ].map((value, idx) => (
+                    <li key={idx} className="flex items-center gap-4">
+                      <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 text-green-600">
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                      </div>
+                      <span className="text-slate-700 font-medium text-lg">{value}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

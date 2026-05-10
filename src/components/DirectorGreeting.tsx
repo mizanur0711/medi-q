@@ -165,7 +165,7 @@ export default function DirectorGreeting() {
               {[
                 { value: '14+', label: 'Years' },
                 { value: '200+', label: 'Partners' },
-                { value: '50+', label: 'Products' },
+                { value: '100+', label: 'Products' },
               ].map(s => (
                 <div key={s.label} className="text-center rounded-xl py-2.5"
                   style={{ background: 'rgba(27,94,32,0.06)' }}>
