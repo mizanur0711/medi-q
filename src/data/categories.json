@@ -57,7 +57,7 @@
   },
   {
     "id": "cat-air-mattress",
-    "name": "Air mattress",
+    "name": "Air mattress and Under-pad",
     "slug": "air-mattress",
     "description": "Medical air mattresses designed to prevent pressure sores.",
     "icon": "bed",
@@ -93,6 +93,22 @@
     "slug": "gloves",
     "description": "Durable and protective medical gloves for all procedures.",
     "icon": "hand",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-orthopedic-items",
+    "name": "Orthopedic Items",
+    "slug": "orthopedic-items",
+    "description": "High-quality orthopedic supports and mobility aids.",
+    "icon": "activity",
+    "imageUrl": "/images/categories/placeholder.jpg"
+  },
+  {
+    "id": "cat-dental-nasal",
+    "name": "Dental & Nasal",
+    "slug": "dental-nasal",
+    "description": "Premium dental and nasal care products for daily hygiene.",
+    "icon": "activity",
     "imageUrl": "/images/categories/placeholder.jpg"
   }
 ]

@@ -35,7 +35,7 @@
       "Instant service available in Chittagong"
     ],
     "imageUrl": "/images/products/safe-care.webp",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "NB-013",
@@ -149,7 +149,7 @@
       "Instant service available in Chittagong"
     ],
     "imageUrl": "/images/products/my-check.webp",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "NB-008",
@@ -250,7 +250,7 @@
     "id": "air-mattress-001",
     "name": "MEDI-Q Air Mattress",
     "slug": "medi-q-air-mattress",
-    "category": "Air mattress",
+    "category": "Air mattress and Under-pad",
     "family": "air-mattress",
     "origin": "China",
     "description": "The Medi-Q Anti-Decubitus Air Mattress system is a medical-grade pressure relief solution designed to prevent and treat bedsores and pressure ulcers for bedridden patients.",
@@ -262,7 +262,7 @@
       "Easy-to-clean surface and simple installation over standard beds"
     ],
     "imageUrl": "/images/products/air-mattress.jpg",
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "pm-001",
@@ -280,7 +280,7 @@
       "Portable and lightweight design, ideal for healthcare professionals on the go"
     ],
     "imageUrl": "/images/products/alpk2-aneroid-bp-machine.jpeg",
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "wheel-001",
@@ -299,11 +299,11 @@
     "isNew": true
   },
   {
-    "id": "wheel-002",
+    "id": "ortho-001",
     "name": "Aluminum Hand Crutch",
     "slug": "aluminum-hand-crutch",
-    "category": "Wheel Chair",
-    "family": "wheel-chair",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
     "origin": "China",
     "description": "Lightweight aluminum crutches with adjustable height for mobility support.",
     "features": [
@@ -312,6 +312,155 @@
       "Sold as a pair"
     ],
     "imageUrl": "/images/products/hand_crutch.webp",
+    "isNew": true
+  },
+  {
+    "id": "ortho-002",
+    "name": "Steel Hand Crutch",
+    "slug": "steel-hand-crutch",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "Steel hand crutches with adjustable height for mobility support.",
+    "features": [
+      "High-quality steel construction",
+      "Adjustable height settings",
+      "Sold as a pair"
+    ],
+    "imageUrl": "/images/products/steel_hand_crutch.webp",
+    "isNew": false
+  },
+  {
+    "id": "ortho-003",
+    "name": "Elbow Crutches 9331L",
+    "slug": "elbow-crutches-9331L",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "Elbow crutches with adjustable height for mobility support.",
+    "features": [
+      "High-quality aluminum construction",
+      "Adjustable height settings",
+      "Sold as a pair"
+    ],
+    "imageUrl": "/images/products/elbow_crutches_9331L.jpeg",
+    "isNew": false
+  },
+  {
+    "id": "ortho-004",
+    "name": "Orthopedic cast tape 3/4/5 Inch",
+    "slug": "orthopedic-cast-tape-3-4-5-inch",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "Korea",
+    "description": "NEO CAST is a high-performance orthopedic casting tape designed for robust immobilization of fractures and orthopedic injuries, offering a lightweight and durable alternative to traditional plaster.",
+    "features": [
+      "Advanced fiberglass construction providing superior strength and durability",
+      "Lightweight and breathable material for enhanced patient comfort during recovery",
+      "Excellent moldability ensures a precise and secure fit around body contours",
+      "Quick-setting formula for efficient application in clinical environments",
+      "Radiolucent properties allow for clear X-ray monitoring without removing the cast",
+      "Moisture-resistant 'Fiberglass Blue' finish for improved hygiene and longevity",
+      "Generous 5-inch x 4-yard (12.5cm x 3.7m) dimensions for versatile medical use"
+    ],
+    "imageUrl": "/images/products/orthopedic_cast_tape.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "ortho-005",
+    "name": "Walker Silver",
+    "slug": "walker-silver",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "This adjustable folding walker is a lightweight yet sturdy mobility aid designed to provide exceptional stability and support for individuals with balance or walking difficulties.",
+    "features": [
+      "Durable anodized aluminum frame for a lightweight and rust-resistant build",
+      "Dual-front 5-inch wheels for smooth gliding and easier maneuverability over various surfaces",
+      "Height-adjustable legs with secure push-button locks to accommodate different user heights",
+      "Comfortable, non-slip contoured hand grips for a secure and ergonomic hold",
+      "Slip-resistant rubber tips on rear legs for added safety and traction",
+      "One-button folding mechanism for convenient storage and transport",
+      "Reinforced cross-brace design ensures maximum structural integrity and user safety"
+    ],
+    "imageUrl": "/images/products/walker_silver.jpeg",
+    "isNew": false
+  },
+  {
+    "id": "ortho-006",
+    "name": "Walker Copper",
+    "slug": "walker-copper",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "This adjustable folding walker is a lightweight yet sturdy mobility aid designed to provide exceptional stability and support for individuals with balance or walking difficulties.",
+    "features": [
+      "Durable anodized aluminum frame for a lightweight and rust-resistant build",
+      "Dual-front 5-inch wheels for smooth gliding and easier maneuverability over various surfaces",
+      "Height-adjustable legs with secure push-button locks to accommodate different user heights",
+      "Comfortable, non-slip contoured hand grips for a secure and ergonomic hold",
+      "Slip-resistant rubber tips on rear legs for added safety and traction",
+      "One-button folding mechanism for convenient storage and transport",
+      "Reinforced cross-brace design ensures maximum structural integrity and user safety"
+    ],
+    "imageUrl": "/images/products/walker_copper.jpeg",
+    "isNew": false
+  },
+  {
+    "id": "ortho-007",
+    "name": "Walking Stick",
+    "slug": "walking-stick",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "This adjustable T-handle walking stick is a sleek and durable mobility aid designed to provide reliable balance and support for everyday use.",
+    "features": [
+      "High-strength aluminum alloy construction with a classic black finish",
+      "Ergonomic T-shaped handle designed to reduce hand fatigue and provide a secure grip",
+      "Easy-to-use push-button height adjustment to accommodate various user heights",
+      "Reinforced slip-resistant rubber tip for superior traction on multiple floor types",
+      "Lightweight and portable design for effortless carrying and storage",
+      "Safety locking ring to ensure the cane remains at the desired height during use"
+    ],
+    "imageUrl": "/images/products/walking_stick.jpeg",
+    "isNew": false
+  },
+  {
+    "id": "ortho-008",
+    "name": "Elbow crutch 923 L",
+    "slug": "elbow-crutch-923-L",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "This adjustable elbow crutch (Model 923-L) is a high-quality mobility aid designed to provide superior support and stability for individuals recovering from leg injuries or those with long-term mobility needs.",
+    "features": [
+      "Ergonomic forearm cuff designed to distribute weight evenly and reduce wrist strain",
+      "Contoured non-slip hand grip for enhanced comfort and secure handling",
+      "Lightweight, high-strength aluminum tubing with a sleek chrome finish",
+      "Multi-level push-button height adjustment to suit a wide range of user heights",
+      "Durable, shock-absorbing rubber tip for excellent traction and safety on various surfaces",
+      "One-piece molded plastic cuff and handle assembly for increased structural durability"
+    ],
+    "imageUrl": "/images/products/elbow_crutch_923_L.jpeg",
+    "isNew": false
+  },
+  {
+    "id": "ortho-009",
+    "name": "Elbow crutch 923 L - Copper",
+    "slug": "elbow-crutch-923-L-copper",
+    "category": "Orthopedic Items",
+    "family": "orthopedic-items",
+    "origin": "China",
+    "description": "This adjustable elbow crutch (Model 923-L) is a high-quality mobility aid designed to provide superior support and stability for individuals recovering from leg injuries or those with long-term mobility needs.",
+    "features": [
+      "Ergonomic forearm cuff designed to distribute weight evenly and reduce wrist strain",
+      "Contoured non-slip hand grip for enhanced comfort and secure handling",
+      "Lightweight, high-strength aluminum tubing with a sleek copper finish",
+      "Multi-level push-button height adjustment to suit a wide range of user heights",
+      "Durable, shock-absorbing rubber tip for excellent traction and safety on various surfaces",
+      "One-piece molded plastic cuff and handle assembly for increased structural durability"
+    ],
+    "imageUrl": "/images/products/elbow_crutch_923_L_copper.jpeg",
     "isNew": false
   },
   {
@@ -328,7 +477,7 @@
       "Standard 1pc/CTN packaging"
     ],
     "imageUrl": "/images/products/809PU.jpg",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "wheel-004",
@@ -411,7 +560,7 @@
     "slug": "medi-q-digital-bp-machine",
     "category": "Pressure Machine & stethoscope",
     "family": "pressure-machine-stethoscope",
-    "origin": "Japan",
+    "origin": "China",
     "description": "The Medi-Q BP-S31 is a high-precision digital blood pressure monitor featuring a large, high-contrast LED display and voice broadcast for effortless health monitoring at home.",
     "features": [
       "Large backlit LED display for clear reading in any lighting",
@@ -426,10 +575,49 @@
     "isNew": true
   },
   {
+    "id": "st-002",
+    "name": "Cardiology Stethoscope",
+    "slug": "cardiology-stethoscope",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
+    "origin": "China",
+    "description": "This premium Cardiology Stethoscope is a high-performance diagnostic instrument engineered for superior acoustic sensitivity and precision in cardiac and pulmonary auscultation.",
+    "features": [
+      "Dual-head stainless steel chestpiece precision-machined for exceptional sound transmission",
+      "High-sensitivity diaphragm designed to capture both high and low-frequency heart and lung sounds",
+      "Dual-lumen tubing design to eliminate friction noise and ensure clear acoustic pathways",
+      "Ergonomic, adjustable headset with soft-sealing ear tips for maximum comfort and an excellent acoustic seal",
+      "Durable, latex-free tubing resistant to skin oils and alcohol for long-lasting use",
+      "Presented in a professional foam-lined protective box, ideal for healthcare specialists and medical students",
+      "CE certified, meeting international standards for medical diagnostic equipment"
+    ],
+    "imageUrl": "/images/products/cardiology-stethoscope.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "st-003",
+    "name": "Alpk2 Sphygmomanometer Valve With Bulb",
+    "slug": "alpk2-sphygmomanometer-valve-with-bulb",
+    "category": "Pressure Machine & stethoscope",
+    "family": "pressure-machine-stethoscope",
+    "origin": "Japan",
+    "description": "The ALPK2 Sphygmomanometer Valve with Bulb (Model No. SSi 500V) is a high-quality replacement inflation system designed for aneroid blood pressure monitors, ensuring smooth operation and precise air control.",
+    "features": [
+      "Durable, medical-grade latex bulb for consistent inflation performance",
+      "Precision-engineered chrome-plated air release valve for controlled deflation",
+      "Ergonomic bulb design providing a comfortable grip for repeated manual use",
+      "Universal connector compatible with most standard sphygmomanometer cuffs",
+      "High-quality internal intake valve to prevent air leakage",
+      "Marketed by Prime Surgical, ensuring reliability for clinical and home healthcare settings"
+    ],
+    "imageUrl": "/images/products/alpk2-sphygmomanometer-valve-with-bulb.jpeg",
+    "isNew": true
+  },
+  {
     "id": "air-mattress-002",
     "name": "Safe Care Air Mattress",
     "slug": "safe-care-air-mattress",
-    "category": "Air mattress",
+    "category": "Air mattress and Under-pad",
     "family": "air-mattress",
     "origin": "China",
     "description": "The Safe Care Anti-Decubitus Air Mattress system is a high-performance medical surface designed to effectively prevent and manage pressure sores for long-term bedridden patients.",
@@ -441,6 +629,22 @@
       "Heavy-duty, medical-grade PVC material for durability and hygiene"
     ],
     "imageUrl": "/images/products/safe-care-air-mattress.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "air-mattress-003",
+    "name": "Air Mattress Tube",
+    "slug": "air-mattress-tube",
+    "category": "Air mattress and Under-pad",
+    "family": "air-mattress",
+    "origin": "China",
+    "description": "High-quality air mattress tube designed for reliable air pump connection and long-term use with anti-decubitus air mattresses.",
+    "features": [
+      "Flexible tubing for easy connection and placement",
+      "Durable material for long-term use",
+      "Standard size compatible with most air pumps"
+    ],
+    "imageUrl": "/images/products/air-mattress-tube.jpeg",
     "isNew": true
   },
   {
@@ -477,7 +681,7 @@
       "Suitable for medical, professional, or general-purpose use"
     ],
     "imageUrl": "/images/products/secure-face-mask.jpeg",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "glove-001",
@@ -514,7 +718,7 @@
       "CE certified (0598) and backed by a 1-year warranty for quality assurance"
     ],
     "imageUrl": "/images/products/fit-digital-thermometer.jpeg",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "dt-002",
@@ -868,11 +1072,29 @@
     "isNew": true
   },
   {
+    "id": "tips-009",
+    "name": "Assure Vacuum Blood Purple Tube EDTA K2 3 ml",
+    "slug": "assure-vacuum-blood-purple-tube-edta-k2-3-ml",
+    "category": "Tips & Tube",
+    "family": "tips-tube",
+    "origin": "China",
+    "description": "High-quality ASSURE vacuum blood collection tubes featuring a purple-coded cap, specifically designed for Erythrocyte Sedimentation Rate (ESR) testing with precise vacuum technology.",
+    "features": [
+      "Precise vacuum volume for accurate blood-to-additive ratio",
+      "Color-coded purple cap for quick identification (ESR testing)",
+      "Sterile interior ensuring sample integrity and safety",
+      "Durable, shatter-resistant tube construction",
+      "Universal fit for standard blood collection needles and holders"
+    ],
+    "imageUrl": "/images/products/assure-vacuum-blood-purple.jpeg",
+    "isNew": true
+  },
+  {
     "id": "wipes-001",
-    "name": "Taiana Adult Underpad",
+    "name": "Taiana Adult Underpad L/XXL",
     "slug": "taiana-adult-underpad",
-    "category": "Wipes",
-    "family": "wipes",
+    "category": "Air mattress and Under-pad",
+    "family": "air-mattress",
     "origin": "China",
     "description": "High-absorbency Taiana adult underpads designed to provide reliable moisture protection and surface hygiene for individuals requiring extra care.",
     "features": [
@@ -901,6 +1123,70 @@
       "Standard size compatible with most laboratory microscopes"
     ],
     "imageUrl": "/images/products/sail-microscope-slides.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "den-001",
+    "name": "Interdental Brush (Blue/Green/Yellow)",
+    "slug": "interdental-brush",
+    "category": "Dental & Nasal",
+    "family": "dental-nasal",
+    "origin": "China",
+    "description": "High-quality interdental brushes designed to clean hard-to-reach areas between teeth.",
+    "features": [
+      "Available in Blue, Green, and Yellow variants",
+      "Ergonomic handle for precise control",
+      "Durable bristles for effective plaque removal"
+    ],
+    "imageUrl": "/images/products/placinterdental-brusheholder.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "den-002",
+    "name": "Medi Q Dental Floss",
+    "slug": "medi-q-dental-floss",
+    "category": "Dental & Nasal",
+    "family": "dental-nasal",
+    "origin": "China",
+    "description": "Medi Q Dental Floss provides superior cleaning to maintain optimal oral hygiene.",
+    "features": [
+      "Strong, shred-resistant floss material",
+      "Mint flavored for a fresh feeling",
+      "Easy to use dispenser"
+    ],
+    "imageUrl": "/images/products/medi-q-dental-floss.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "den-003",
+    "name": "Nasal Aspirator",
+    "slug": "nasal-aspirator",
+    "category": "Dental & Nasal",
+    "family": "dental-nasal",
+    "origin": "China",
+    "description": "Safe and gentle nasal aspirator designed for clearing congestion in infants and toddlers.",
+    "features": [
+      "Soft silicone tip for safety and comfort",
+      "Easy to clean and sterilize",
+      "Effective suction control"
+    ],
+    "imageUrl": "/images/products/nasal-aspirator.jpeg",
+    "isNew": true
+  },
+  {
+    "id": "den-004",
+    "name": "Nasal sucker 35 & 60 ml",
+    "slug": "nasal-sucker",
+    "category": "Dental & Nasal",
+    "family": "dental-nasal",
+    "origin": "China",
+    "description": "Medical-grade nasal sucker available in 35ml and 60ml capacities for effective mucus extraction.",
+    "features": [
+      "Available in 35ml and 60ml sizes",
+      "Durable, medical-grade bulb material",
+      "Easy to squeeze and release for optimal suction"
+    ],
+    "imageUrl": "/images/products/nasal-sucker.jpeg",
     "isNew": true
   }
 ]

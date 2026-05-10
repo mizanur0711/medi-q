@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async';
 import { motion, useInView } from 'framer-motion';
 
 const contactInfo = [
-  { icon: '📍', label: 'Address', value: 'Dhaka, Bangladesh', sub: '(Exact address coming soon)' },
-  { icon: '📞', label: 'Phone', value: '+880 — (placeholder)', sub: 'Sun–Thu, 9am–6pm' },
-  { icon: '✉️', label: 'Email', value: 'info@medi-q.com', sub: 'Reply within 24 hours' },
+  { icon: '📍', label: 'Address', value: 'K.B.Orchid Plaza , Laldighi, Chattogram', sub: '' },
+  { icon: '📞', label: 'Phone', value: '+8801877725544', sub: 'Sun–Thu, 9am–6pm' },
+  { icon: '✉️', label: 'Email', value: 'sv.corporation20@gmail.com', sub: 'Reply within 24 hours' },
   { icon: '🕐', label: 'Hours', value: 'Sunday – Thursday', sub: '9:00 AM – 6:00 PM' },
 ];
 
