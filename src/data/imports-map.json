@@ -81,5 +81,16 @@
     "products": [
       "Orthopedic Cast"
     ]
+  },
+  {
+    "id": "imp-in",
+    "country": "India",
+    "isoCode": "IND",
+    "alpha2": "IN",
+    "label": "India",
+    "description": "Supplier of quality medical consumables and specialized diagnostic equipment.",
+    "products": [
+      "Medical Consumables"
+    ]
   }
 ]

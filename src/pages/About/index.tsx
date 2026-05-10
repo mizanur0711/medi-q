@@ -118,7 +118,7 @@ export default function AboutPage() {
                 {[
                   { value: '2012', label: 'Founded' }, { value: '14+', label: 'Years Experience' },
                   { value: '200+', label: 'Healthcare Partners' }, { value: '13', label: 'Nebulizer Models' },
-                  { value: '8', label: 'Divisions Served' }, { value: '4', label: 'Import Countries' },
+                  { value: '8', label: 'Divisions Served' }, { value: '6', label: 'Import Countries' },
                 ].map((s) => (
                   <div key={s.label} className="bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100 rounded-2xl p-5 text-center">
                     <div className="text-3xl font-extrabold text-gradient-green">{s.value}</div>

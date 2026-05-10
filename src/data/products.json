@@ -684,6 +684,23 @@
     "isNew": false
   },
   {
+    "id": "face-mask-003",
+    "name": "Kids Face Mask",
+    "slug": "kids-face-mask",
+    "category": "Face masks",
+    "family": "face-masks",
+    "origin": "China",
+    "description": "High-quality kids face masks designed for effective personal protection and hygiene in daily use.",
+    "features": [
+      "Kids face mask design for respiratory coverage",
+      "Bulk pack containing 50 pieces per box",
+      "Convenient perforated top for easy dispensing",
+      "Suitable for kids"
+    ],
+    "imageUrl": "/images/products/kids-face-mask.jpeg",
+    "isNew": true
+  },
+  {
     "id": "glove-001",
     "name": "Dragon Vinyl Gloves",
     "slug": "dragon-vinyl-gloves",
@@ -874,7 +891,7 @@
   },
   {
     "id": "nebulizer-oxygen-mask-002",
-    "name": "Medi-Q Oxygen Mask",
+    "name": "Medi-Q Oxygen Mask (Adult/Child/Infant)",
     "slug": "medi-q-oxygen-mask",
     "category": "Nebulizer & Oxygen Mask",
     "family": "nebulizer-oxygen-mask",
@@ -892,7 +909,7 @@
   },
   {
     "id": "nebulizer-oxygen-mask-003",
-    "name": "Medi-Q Nebulizer Mask",
+    "name": "Medi-Q Nebulizer Mask Adult",
     "slug": "medi-q-nebulizer-mask",
     "category": "Nebulizer & Oxygen Mask",
     "family": "nebulizer-oxygen-mask",

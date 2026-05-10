@@ -14,6 +14,7 @@ const COUNTRY_META: Record<string, { numericId: number; lat: number; lon: number
   'JP': { numericId: 392, lat: 36, lon: 138, color: '#c2410c', flag: '🇯🇵' },
   'US': { numericId: 840, lat: 38, lon: -97, color: '#166534', flag: '🇺🇸' },
   'KR': { numericId: 410, lat: 36, lon: 128, color: '#ea580c', flag: '🇰🇷' },
+  'IN': { numericId: 356, lat: 20, lon: 77, color: '#d97706', flag: '🇮🇳' },
 };
 
 export const IMPORT_COUNTRIES = importsMapData.map(item => {
@@ -144,102 +145,105 @@ export default function WorldMap({ compact = false, activeId, onCountryClick }: 
   const countryColorMap = new Map(IMPORT_COUNTRIES.map(c => [c.numericId, c.color]));
 
   return (
-    <div ref={containerRef} className="relative w-full select-none">
+    <div ref={containerRef} className="relative w-full select-none overflow-hidden rounded-2xl">
+      <div className="overflow-x-auto w-full scrollbar-hide">
+        <div className="min-w-[700px] md:min-w-0">
+          <svg viewBox={`0 0 ${W} ${mapH}`} className="w-full block"
+            onMouseLeave={() => setTooltip(null)}>
+            <defs>
+              {/* Glow filter */}
+              <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="3" result="blur" />
+                <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+              </filter>
 
-      <svg viewBox={`0 0 ${W} ${mapH}`} className="w-full block"
-        onMouseLeave={() => setTooltip(null)}>
-        <defs>
-          {/* Glow filter */}
-          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="3" result="blur" />
-            <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-          </filter>
+              {/* Drop shadow for highlighted countries */}
+              <filter id="countryShadow" x="-10%" y="-10%" width="120%" height="120%">
+                <feDropShadow dx="0" dy="2" stdDeviation="4" floodOpacity="0.12" />
+              </filter>
+            </defs>
 
-          {/* Drop shadow for highlighted countries */}
-          <filter id="countryShadow" x="-10%" y="-10%" width="120%" height="120%">
-            <feDropShadow dx="0" dy="2" stdDeviation="4" floodOpacity="0.12" />
-          </filter>
-        </defs>
+            {/* Ocean — transparent, section background shows through */}
+            {/* (no explicit rect — SVG background is transparent by default) */}
 
-        {/* Ocean — transparent, section background shows through */}
-        {/* (no explicit rect — SVG background is transparent by default) */}
+            {/* All non-highlighted land — very soft slate */}
+            {(geo as any).features
+              .filter((f: any) => !highlightSet.has(Number(f.id)))
+              .map((f: any) => (
+                <path key={f.id} d={pathGen(f) || ''}
+                  fill="#e2e8f0"
+                  stroke="#cbd5e1"
+                  strokeWidth="0.5"
+                />
+              ))}
 
-        {/* All non-highlighted land — very soft slate */}
-        {(geo as any).features
-          .filter((f: any) => !highlightSet.has(Number(f.id)))
-          .map((f: any) => (
-            <path key={f.id} d={pathGen(f) || ''}
-              fill="#e2e8f0"
-              stroke="#cbd5e1"
-              strokeWidth="0.5"
-            />
-          ))}
+            {/* Highlighted countries — soft brand-colour fill */}
+            {(geo as any).features
+              .filter((f: any) => highlightSet.has(Number(f.id)))
+              .map((f: any) => {
+                const col = countryColorMap.get(Number(f.id)) ?? '#22c55e';
+                return (
+                  <path key={f.id} d={pathGen(f) || ''}
+                    fill={col + '28'}
+                    stroke={col}
+                    strokeWidth="1"
+                    filter="url(#countryShadow)"
+                  />
+                );
+              })}
 
-        {/* Highlighted countries — soft brand-colour fill */}
-        {(geo as any).features
-          .filter((f: any) => highlightSet.has(Number(f.id)))
-          .map((f: any) => {
-            const col = countryColorMap.get(Number(f.id)) ?? '#22c55e';
-            return (
-              <path key={f.id} d={pathGen(f) || ''}
-                fill={col + '28'}
-                stroke={col}
-                strokeWidth="1"
-                filter="url(#countryShadow)"
+            {/* Animated arcs from Bangladesh to each country */}
+            {IMPORT_COUNTRIES.map((c, i) => (
+              <ArcLine
+                key={c.id}
+                path={getArcPath(BANGLADESH.lat, BANGLADESH.lon, c.lat, c.lon)}
+                color={c.color}
+                delay={i * 0.3 + 0.4}
               />
-            );
-          })}
+            ))}
 
-        {/* Animated arcs from Bangladesh to each country */}
-        {IMPORT_COUNTRIES.map((c, i) => (
-          <ArcLine
-            key={c.id}
-            path={getArcPath(BANGLADESH.lat, BANGLADESH.lon, c.lat, c.lon)}
-            color={c.color}
-            delay={i * 0.3 + 0.4}
-          />
-        ))}
-
-        {/* Bangladesh origin dot */}
-        <g filter="url(#glow)">
-          <circle cx={bdOrigin.x} cy={bdOrigin.y} r={7} fill="#166534" fillOpacity={0.15} />
-          <circle cx={bdOrigin.x} cy={bdOrigin.y} r={4} fill="#166534" fillOpacity={0.9} />
-          <circle cx={bdOrigin.x} cy={bdOrigin.y} r={2} fill="white" fillOpacity={0.95} />
-        </g>
-        <text x={bdOrigin.x + 9} y={bdOrigin.y + 4}
-          fill="#166534" fillOpacity={0.85} fontSize="8.5" fontFamily="Inter,sans-serif" fontWeight="700">
-          Bangladesh
-        </text>
-
-        {/* Pulsing dots on each import country */}
-        {IMPORT_COUNTRIES.map((country) => {
-          const pos = project(country.lat, country.lon);
-          return (
-            <PulseDot key={country.id}
-              x={pos.x} y={pos.y}
-              color={country.color}
-              isActive={activeId === country.id}
-              onClick={() => onCountryClick?.(activeId === country.id ? null : country.id)}
-              onHover={e => handleHover(e, country)}
-              onLeave={() => setTooltip(null)}
-            />
-          );
-        })}
-
-        {/* Country flag labels */}
-        {IMPORT_COUNTRIES.map(c => {
-          const pos = project(c.lat, c.lon);
-          return (
-            <text key={c.id} x={pos.x} y={pos.y + 20}
-              textAnchor="middle"
-              fill={c.color}
-              fillOpacity={0.9}
-              fontSize="9" fontFamily="Inter,sans-serif" fontWeight="700">
-              {c.flag} {compact ? '' : c.name}
+            {/* Bangladesh origin dot */}
+            <g filter="url(#glow)">
+              <circle cx={bdOrigin.x} cy={bdOrigin.y} r={7} fill="#166534" fillOpacity={0.15} />
+              <circle cx={bdOrigin.x} cy={bdOrigin.y} r={4} fill="#166534" fillOpacity={0.9} />
+              <circle cx={bdOrigin.x} cy={bdOrigin.y} r={2} fill="white" fillOpacity={0.95} />
+            </g>
+            <text x={bdOrigin.x + 9} y={bdOrigin.y + 4}
+              fill="#166534" fillOpacity={0.85} fontSize="8.5" fontFamily="Inter,sans-serif" fontWeight="700">
+              Bangladesh
             </text>
-          );
-        })}
-      </svg>
+
+            {/* Pulsing dots on each import country */}
+            {IMPORT_COUNTRIES.map((country) => {
+              const pos = project(country.lat, country.lon);
+              return (
+                <PulseDot key={country.id}
+                  x={pos.x} y={pos.y}
+                  color={country.color}
+                  isActive={activeId === country.id}
+                  onClick={() => onCountryClick?.(activeId === country.id ? null : country.id)}
+                  onHover={e => handleHover(e, country)}
+                  onLeave={() => setTooltip(null)}
+                />
+              );
+            })}
+
+            {/* Country flag labels */}
+            {IMPORT_COUNTRIES.map(c => {
+              const pos = project(c.lat, c.lon);
+              return (
+                <text key={c.id} x={pos.x} y={pos.y + 20}
+                  textAnchor="middle"
+                  fill={c.color}
+                  fillOpacity={0.9}
+                  fontSize="9" fontFamily="Inter,sans-serif" fontWeight="700">
+                  {c.flag} {compact ? '' : c.name}
+                </text>
+              );
+            })}
+          </svg>
+        </div>
+      </div>
 
       {/* Hover tooltip */}
       <AnimatePresence>

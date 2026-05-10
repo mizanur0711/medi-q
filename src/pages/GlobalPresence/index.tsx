@@ -18,7 +18,7 @@ export default function GlobalPresencePage() {
     <>
       <Helmet>
         <title>Global Presence | MEDI-Q — Importing from World's Best Manufacturers</title>
-        <meta name="description" content="MEDI-Q imports high-quality medical products from certified manufacturers in China, Germany, Japan, and the USA." />
+        <meta name="description" content="MEDI-Q imports high-quality medical products from certified manufacturers in China, Germany, Japan, South Korea, the USA, and India." />
       </Helmet>
 
       {/* Page wrapper — same white background as homepage teaser */}
@@ -83,7 +83,7 @@ export default function GlobalPresencePage() {
 
           {/* ── Country cards ── */}
           <div className="container-custom pb-16">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {IMPORT_COUNTRIES.map((country, i) => {
                 const isActive = activeId === country.id;
                 return (
