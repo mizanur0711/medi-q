@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const stats = [
-  { value: '12+', label: 'Years of Excellence' },
+  { value: '14+', label: 'Years of Excellence' },
   { value: '13', label: 'Nebulizer Models' },
-  { value: '500+', label: 'Healthcare Partners' },
+  { value: '200+', label: 'Healthcare Partners' },
   { value: '8', label: 'Divisions Covered' },
 ];
 

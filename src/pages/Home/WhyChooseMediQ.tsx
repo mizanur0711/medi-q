@@ -21,7 +21,7 @@ const pillars = [
       </svg>
     ),
     title: 'Reliability',
-    description: 'Consistent supply chain with backup stock management. Trusted by 500+ hospitals and clinics for on-time delivery across Bangladesh.',
+    description: 'Consistent supply chain with backup stock management. Trusted by 200+ healthcare partners for on-time delivery across Bangladesh.',
     color: 'from-blue-500 to-blue-600',
     bg: 'bg-blue-50',
   },
@@ -53,7 +53,7 @@ const pillars = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: '12+ Years Experience',
+    title: '14+ Years Experience',
     description: 'Founded in 2012, MEDI-Q has built deep expertise in medical device sourcing, regulatory compliance, and supply chain management.',
     color: 'from-teal-500 to-teal-600',
     bg: 'bg-teal-50',

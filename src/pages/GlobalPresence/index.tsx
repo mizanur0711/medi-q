@@ -5,9 +5,9 @@ import WorldMap, { IMPORT_COUNTRIES } from '../../components/WorldMap';
 
 const STATS = [
   { value: IMPORT_COUNTRIES.length.toString(), label: 'Source Countries' },
-  { value: '5+', label: 'Product Categories' },
+  { value: '15+', label: 'Product Categories' },
   { value: 'ISO 13485', label: 'Certified Partners' },
-  { value: '12+', label: 'Years Importing' },
+  { value: '14+', label: 'Years Importing' },
 ];
 
 export default function GlobalPresencePage() {
