@@ -201,6 +201,23 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Location */}
+        <section className="section-padding bg-slate-50">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-green-100 text-green-700 text-sm font-semibold mb-4">Our Location</span>
+              <h2 className="section-title">Visit Us</h2>
+            </div>
+            <div className="rounded-3xl overflow-hidden shadow-card h-96">
+              <iframe
+                title="MEDI-Q Office Location"
+                src="https://maps.google.com/maps?q=K.B.Orchid+Plaza,+Laldighi,+Chattogram&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Future Vision */}
         <section className="section-padding bg-brand-gradient relative overflow-hidden">
           <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
