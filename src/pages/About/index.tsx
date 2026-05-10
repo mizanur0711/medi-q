@@ -17,12 +17,22 @@ function TeamCard({ member, index }: { member: TeamMember; index: number }) {
   return (
     <motion.div ref={ref} initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: index * 0.15 }}
       className="bg-white rounded-2xl shadow-card overflow-hidden">
-      <div className="aspect-[4/3] bg-gradient-to-br from-green-100 to-emerald-200 flex items-center justify-center">
-        <div className="w-20 h-20 rounded-full bg-white/50 flex items-center justify-center">
-          <svg className="w-10 h-10 text-green-400" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
-          </svg>
-        </div>
+      <div className="aspect-[4/3] relative bg-gradient-to-br from-green-100 to-emerald-200 overflow-hidden group">
+        {member.imageUrl ? (
+          <img
+            src={member.imageUrl}
+            alt={member.name}
+            className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-20 h-20 rounded-full bg-white/50 flex items-center justify-center">
+              <svg className="w-10 h-10 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
+              </svg>
+            </div>
+          </div>
+        )}
       </div>
       <div className="p-6">
         <h3 className="font-bold text-slate-900 text-lg">{member.name}</h3>

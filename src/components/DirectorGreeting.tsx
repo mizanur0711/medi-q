@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import directorPhoto from '../assets/director-placeholder.png';
 
 const SESSION_KEY = 'mediq_director_greeting_seen';
 const AUTO_DISMISS_MS = 12000;
@@ -125,7 +124,7 @@ export default function DirectorGreeting() {
               <div className="flex-shrink-0 flex flex-col items-center gap-2">
                 <div className="relative">
                   <img
-                    src={directorPhoto}
+                    src="/images/team/md-jahedul-alam.png"
                     alt="MD Jahedul Alam — Founder & Managing Director"
                     className="rounded-2xl object-cover object-top ring-4 ring-green-100"
                     style={{ width: 110, height: 130 }}
