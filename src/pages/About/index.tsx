@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import teamData from '../../data/team.json';
 import milestonesData from '../../data/milestones.json';
 import type { TeamMember, Milestone } from '../../types';
+import sncLogo from '../../assets/images/s&c logo resize.png';
 
 const team = teamData as TeamMember[];
 const milestones = milestonesData as Milestone[];
@@ -194,10 +195,8 @@ export default function AboutPage() {
               MEDI-Q is backed by Service &amp; Corporation, a well-established name in Bangladesh’s healthcare supply industry since 1969. This strong foundation enables MEDI-Q to maintain high product standards, reliable sourcing, and continuous growth.
             </p>
             <Link to="/our-journey" className="inline-block bg-slate-50 border border-slate-200 rounded-3xl px-12 py-8 shadow-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-              <div className="w-24 h-24 rounded-2xl bg-green-100 flex items-center justify-center mx-auto mb-4 group-hover:bg-green-200 transition-colors">
-                <svg className="w-10 h-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
+              <div className="w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-4 overflow-hidden bg-white shadow-sm border border-slate-100 transition-transform duration-300 group-hover:scale-105 p-2">
+                <img src={sncLogo} alt="Service & Corporation Logo" className="w-full h-full object-contain" />
               </div>
               <h3 className="font-bold text-slate-800 text-2xl mb-2 group-hover:text-green-700 transition-colors">Service &amp; Corporation</h3>
               <p className="text-slate-500 text-sm mb-4">Established in 1969</p>

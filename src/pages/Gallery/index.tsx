@@ -4,18 +4,19 @@ import { motion, useInView } from 'framer-motion';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 
-// Placeholder gallery images using gradient SVG data URIs
-const galleryImages = Array.from({ length: 12 }, (_, i) => ({
-  id: `img-${i + 1}`,
-  src: `https://placehold.co/800x600/1b5e20/ffffff?text=Photo+${i + 1}`,
-  thumb: `https://placehold.co/400x300/1b5e20/ffffff?text=Photo+${i + 1}`,
-  caption: [
-    'Team at Medical Expo 2023', 'Product showcase — Nebulizer range', 'Hospital delivery — Chittagong',
-    'MEDI-Q office — Dhaka', 'Medical equipment demonstration', 'Training session for healthcare staff',
-    'Partnership signing ceremony', 'Quality inspection at warehouse', 'Nationwide distribution fleet',
-    'MEDI-Q at BMA conference', 'Product installation at clinic', 'Team photo — Annual meet',
-  ][i],
-}));
+const galleryImages = [
+  { id: 'img-1', src: '/images/gallery/Chattrogram Corporate office .jpeg', thumb: '/images/gallery/Chattrogram Corporate office .jpeg', caption: 'Chattrogram Corporate Office' },
+  { id: 'img-2', src: '/images/gallery/Chattrogram Corporate office 2.jpeg', thumb: '/images/gallery/Chattrogram Corporate office 2.jpeg', caption: 'Chattrogram Corporate Office' },
+  { id: 'img-3', src: '/images/gallery/Chattrogram office collage.jpeg', thumb: '/images/gallery/Chattrogram office collage.jpeg', caption: 'Chattrogram Office Collage' },
+  { id: 'img-4', src: '/images/gallery/Welcome at guangzhou.jpeg', thumb: '/images/gallery/Welcome at guangzhou.jpeg', caption: 'Welcome at Guangzhou' },
+  { id: 'img-5', src: '/images/gallery/Container loading at guangzhou.jpeg', thumb: '/images/gallery/Container loading at guangzhou.jpeg', caption: 'Container Loading at Guangzhou' },
+  { id: 'img-6', src: '/images/gallery/Nebulizer mask bulk loading.webp', thumb: '/images/gallery/Nebulizer mask bulk loading.webp', caption: 'Nebulizer Mask Bulk Loading' },
+  { id: 'img-7', src: '/images/gallery/Abroad Visit.webp', thumb: '/images/gallery/Abroad Visit.webp', caption: 'Abroad Visit' },
+  { id: 'img-8', src: '/images/gallery/Abroad visit 2.webp', thumb: '/images/gallery/Abroad visit 2.webp', caption: 'Abroad Visit' },
+  { id: 'img-9', src: '/images/gallery/Abroad visit 3.jpeg', thumb: '/images/gallery/Abroad visit 3.jpeg', caption: 'Abroad Visit' },
+  { id: 'img-10', src: '/images/gallery/abroad visit 4.webp', thumb: '/images/gallery/abroad visit 4.webp', caption: 'Abroad Visit' },
+  { id: 'img-11', src: '/images/gallery/Price giving at Cricket Match.jpeg', thumb: '/images/gallery/Price giving at Cricket Match.jpeg', caption: 'Prize Giving at Cricket Match' },
+];
 
 export default function GalleryPage() {
   const [index, setIndex] = useState(-1);

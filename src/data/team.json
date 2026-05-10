@@ -11,16 +11,16 @@
     "id": "tm-002",
     "name": "Ashraful Alam",
     "title": "Overseas CEO",
-    "bio": "Overseeing day-to-day logistics, supplier relations, and nationwide distribution network.",
-    "shortBio": "Manages operations and the nationwide distribution network.",
+    "bio": "Overseeing international operations and supplier relations.",
+    "shortBio": "Manages international operations and the supplier relations.",
     "imageUrl": "/images/team/ashraful-alam.jpeg"
   },
   {
-    "id": "tm-002",
+    "id": "tm-003",
     "name": "Jabedur Rahman",
-    "title": "Head of Operations",
-    "bio": "Overseeing day-to-day logistics, supplier relations, and nationwide distribution network.",
-    "shortBio": "Manages operations and the nationwide distribution network.",
+    "title": "Head of Import & Operations",
+    "bio": "Overseeing import and day-to-day logistics, supplier relations, and nationwide distribution network.",
+    "shortBio": "Manages Import and Operations.",
     "imageUrl": "/images/team/jabedur-rahman.jpeg"
   }
 ]
