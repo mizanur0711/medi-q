@@ -8,9 +8,6 @@
     "description": "Primary sourcing hub for nebulizers, PPE, hospital furniture, and diagnostic devices. Partnerships with ISO 13485-certified factories.",
     "products": [
       "Nebulizers",
-      "PPE",
-      "Hospital Furniture",
-      "Diagnostic Devices",
       "Face Masks",
       "Vinyl Gloves",
       "Alcohol Wipes",
@@ -23,12 +20,12 @@
       "Nasal Aspirator",
       "EDTA Tubes",
       "Glucose Tube",
-      "Clot Activator",
       "ESR Glass",
       "Pipette Tips",
       "Glass Slides",
       "Underpads",
-      "Wheelchairs"
+      "Wheelchairs",
+      "Digital BP Machine"
     ]
   },
   {
@@ -51,11 +48,8 @@
     "label": "Japan",
     "description": "Advanced mesh and smart nebulizer technology, as well as precision diagnostic equipment from Japanese medical device manufacturers.",
     "products": [
-      "Smart Nebulizers",
       "Diagnostic Devices",
       "BP Machine",
-      "Digital BP",
-      "Bulb & Bladder",
       "Stethoscope"
     ]
   },
