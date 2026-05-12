@@ -12,11 +12,12 @@ const galleryImages = [
   { id: 'img-5', src: '/images/gallery/Container loading at guangzhou.jpeg', thumb: '/images/gallery/Container loading at guangzhou.jpeg', caption: 'Container Loading at Guangzhou' },
   { id: 'img-6', src: '/images/gallery/Nebulizer mask bulk loading.webp', thumb: '/images/gallery/Nebulizer mask bulk loading.webp', caption: 'Nebulizer Mask Bulk Loading' },
   { id: 'img-7', src: '/images/gallery/Abroad Visit.webp', thumb: '/images/gallery/Abroad Visit.webp', caption: 'Abroad Visit' },
-  { id: 'img-8', src: '/images/gallery/Abroad visit 2.webp', thumb: '/images/gallery/Abroad visit 2.webp', caption: 'Abroad Visit' },
-  { id: 'img-9', src: '/images/gallery/Abroad visit 3.jpeg', thumb: '/images/gallery/Abroad visit 3.jpeg', caption: 'Abroad Visit' },
-  { id: 'img-10', src: '/images/gallery/abroad visit 4.webp', thumb: '/images/gallery/abroad visit 4.webp', caption: 'Abroad Visit' },
-  { id: 'img-11', src: '/images/gallery/Price giving at Cricket Match.jpeg', thumb: '/images/gallery/Price giving at Cricket Match.jpeg', caption: 'Prize Giving at Cricket Match' },
-];
+  { id: 'img-8', src: '/images/gallery/Abroad visit 3.jpeg', thumb: '/images/gallery/Abroad visit 3.jpeg', caption: 'Abroad Visit' },
+  { id: 'img-9', src: '/images/gallery/abroad visit 4.webp', thumb: '/images/gallery/abroad visit 4.webp', caption: 'Abroad Visit' },
+  { id: 'img-10', src: '/images/gallery/Price giving at Cricket Match.jpeg', thumb: '/images/gallery/Price giving at Cricket Match.jpeg', caption: 'Prize Giving at Cricket Match' },
+  { id: 'img-11', src: '/images/gallery/supplier.jpeg', thumb: '/images/gallery/supplier.jpeg', caption: 'Supplier' },
+  { id: 'img-12', src: '/images/gallery/visit.jpeg', thumb: '/images/gallery/visit.jpeg', caption: 'Visit' },
+].reverse();
 
 export default function GalleryPage() {
   const [index, setIndex] = useState(-1);
